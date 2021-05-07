@@ -1,0 +1,7111 @@
+EESchema Schematic File Version 4
+LIBS:MagicMirror-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x24_Male J1
+U 1 1 650FDF07
+P 600 1900
+F 0 "J1" H 708 3181 50  0000 C CNN
+F 1 "GPIO" H 708 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 600 1900 50  0001 C CNN
+F 3 "~" H 600 1900 50  0001 C CNN
+	1    600  1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  800  850  800 
+Wire Wire Line
+	800  900  850  900 
+Wire Wire Line
+	800  1000 850  1000
+Wire Wire Line
+	800  1100 850  1100
+Wire Wire Line
+	800  1200 850  1200
+Wire Wire Line
+	800  1300 850  1300
+Wire Wire Line
+	800  1400 850  1400
+Wire Wire Line
+	800  1500 850  1500
+Wire Wire Line
+	800  1600 850  1600
+Wire Wire Line
+	800  1700 850  1700
+Wire Wire Line
+	800  1800 850  1800
+Wire Wire Line
+	800  1900 850  1900
+Wire Wire Line
+	800  2000 850  2000
+Wire Wire Line
+	800  2100 850  2100
+Wire Wire Line
+	800  2200 850  2200
+Wire Wire Line
+	800  2300 850  2300
+Wire Wire Line
+	800  2400 850  2400
+Wire Wire Line
+	800  2500 850  2500
+Wire Wire Line
+	800  2600 850  2600
+Wire Wire Line
+	800  2700 850  2700
+Wire Wire Line
+	800  2800 850  2800
+Wire Wire Line
+	800  2900 850  2900
+Wire Wire Line
+	800  3000 850  3000
+Wire Wire Line
+	800  3100 850  3100
+$Comp
+L power:GND #PWR01
+U 1 1 65123386
+P 1250 3200
+F 0 "#PWR01" H 1250 2950 50  0001 C CNN
+F 1 "GND" H 1255 3027 50  0000 C CNN
+F 2 "" H 1250 3200 50  0001 C CNN
+F 3 "" H 1250 3200 50  0001 C CNN
+	1    1250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3200 1250 3100
+Wire Wire Line
+	1250 800  1150 800 
+Wire Wire Line
+	1150 900  1250 900 
+Connection ~ 1250 900 
+Wire Wire Line
+	1250 900  1250 800 
+Wire Wire Line
+	1150 1000 1250 1000
+Connection ~ 1250 1000
+Wire Wire Line
+	1250 1000 1250 900 
+Wire Wire Line
+	1150 1100 1250 1100
+Connection ~ 1250 1100
+Wire Wire Line
+	1250 1100 1250 1000
+Wire Wire Line
+	1150 1200 1250 1200
+Connection ~ 1250 1200
+Wire Wire Line
+	1250 1200 1250 1100
+Wire Wire Line
+	1150 1300 1250 1300
+Connection ~ 1250 1300
+Wire Wire Line
+	1250 1300 1250 1200
+Wire Wire Line
+	1150 1400 1250 1400
+Connection ~ 1250 1400
+Wire Wire Line
+	1250 1400 1250 1300
+Connection ~ 1250 1500
+Wire Wire Line
+	1250 1500 1250 1400
+Wire Wire Line
+	1150 1500 1250 1500
+Wire Wire Line
+	1150 1600 1250 1600
+Connection ~ 1250 1600
+Wire Wire Line
+	1250 1600 1250 1500
+Wire Wire Line
+	1150 1700 1250 1700
+Connection ~ 1250 1700
+Wire Wire Line
+	1250 1700 1250 1600
+Wire Wire Line
+	1150 3100 1250 3100
+Connection ~ 1250 3100
+Wire Wire Line
+	1250 3100 1250 3000
+Wire Wire Line
+	1150 3000 1250 3000
+Connection ~ 1250 3000
+Wire Wire Line
+	1250 3000 1250 2900
+Wire Wire Line
+	1150 2900 1250 2900
+Connection ~ 1250 2900
+Wire Wire Line
+	1250 2900 1250 2800
+Wire Wire Line
+	1150 2800 1250 2800
+Connection ~ 1250 2800
+Wire Wire Line
+	1250 2800 1250 2700
+Wire Wire Line
+	1150 2700 1250 2700
+Connection ~ 1250 2700
+Wire Wire Line
+	1250 2700 1250 2600
+Wire Wire Line
+	1150 2600 1250 2600
+Connection ~ 1250 2600
+Wire Wire Line
+	1250 2600 1250 2500
+Wire Wire Line
+	1150 2500 1250 2500
+Connection ~ 1250 2500
+Wire Wire Line
+	1250 2500 1250 2400
+Wire Wire Line
+	1150 2400 1250 2400
+Connection ~ 1250 2400
+Wire Wire Line
+	1250 2400 1250 2300
+Wire Wire Line
+	1150 2300 1250 2300
+Connection ~ 1250 2300
+Wire Wire Line
+	1250 2300 1250 2200
+Wire Wire Line
+	1150 2200 1250 2200
+Connection ~ 1250 2200
+Wire Wire Line
+	1250 2200 1250 2100
+Wire Wire Line
+	1150 2100 1250 2100
+Connection ~ 1250 2100
+Wire Wire Line
+	1250 2100 1250 2000
+Wire Wire Line
+	1150 2000 1250 2000
+Connection ~ 1250 2000
+Wire Wire Line
+	1250 2000 1250 1900
+Wire Wire Line
+	1150 1900 1250 1900
+Connection ~ 1250 1900
+Wire Wire Line
+	1250 1900 1250 1800
+Wire Wire Line
+	1150 1800 1250 1800
+Connection ~ 1250 1800
+Wire Wire Line
+	1250 1800 1250 1700
+$Comp
+L Device:D D1
+U 1 1 65138EFD
+P 1000 800
+F 0 "D1" H 600 800 50  0000 C CNN
+F 1 "D" H 700 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 800 50  0001 C CNN
+F 3 "~" H 1000 800 50  0001 C CNN
+	1    1000 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 65139951
+P 1000 900
+F 0 "D2" H 600 900 50  0000 C CNN
+F 1 "D" H 700 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 900 50  0001 C CNN
+F 3 "~" H 1000 900 50  0001 C CNN
+	1    1000 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 65139B00
+P 1000 1000
+F 0 "D3" H 600 1000 50  0000 C CNN
+F 1 "D" H 700 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1000 50  0001 C CNN
+F 3 "~" H 1000 1000 50  0001 C CNN
+	1    1000 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 65139E3F
+P 1000 1100
+F 0 "D4" H 600 1100 50  0000 C CNN
+F 1 "D" H 700 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1100 50  0001 C CNN
+F 3 "~" H 1000 1100 50  0001 C CNN
+	1    1000 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 6513A09D
+P 1000 1200
+F 0 "D5" H 600 1200 50  0000 C CNN
+F 1 "D" H 700 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1200 50  0001 C CNN
+F 3 "~" H 1000 1200 50  0001 C CNN
+	1    1000 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 6513A3F5
+P 1000 1300
+F 0 "D6" H 600 1300 50  0000 C CNN
+F 1 "D" H 700 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1300 50  0001 C CNN
+F 3 "~" H 1000 1300 50  0001 C CNN
+	1    1000 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 6513A58B
+P 1000 1400
+F 0 "D7" H 600 1400 50  0000 C CNN
+F 1 "D" H 700 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1400 50  0001 C CNN
+F 3 "~" H 1000 1400 50  0001 C CNN
+	1    1000 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 6513A708
+P 1000 1500
+F 0 "D8" H 600 1500 50  0000 C CNN
+F 1 "D" H 700 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1500 50  0001 C CNN
+F 3 "~" H 1000 1500 50  0001 C CNN
+	1    1000 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 6513CD28
+P 1000 1600
+F 0 "D9" H 600 1600 50  0000 C CNN
+F 1 "D" H 700 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1600 50  0001 C CNN
+F 3 "~" H 1000 1600 50  0001 C CNN
+	1    1000 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 6513CD2E
+P 1000 1700
+F 0 "D10" H 600 1700 50  0000 C CNN
+F 1 "D" H 700 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1700 50  0001 C CNN
+F 3 "~" H 1000 1700 50  0001 C CNN
+	1    1000 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 6513CD34
+P 1000 1800
+F 0 "D11" H 600 1800 50  0000 C CNN
+F 1 "D" H 700 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1800 50  0001 C CNN
+F 3 "~" H 1000 1800 50  0001 C CNN
+	1    1000 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 6513CD3A
+P 1000 1900
+F 0 "D12" H 600 1900 50  0000 C CNN
+F 1 "D" H 700 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 1900 50  0001 C CNN
+F 3 "~" H 1000 1900 50  0001 C CNN
+	1    1000 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 6513CD40
+P 1000 2000
+F 0 "D13" H 600 2000 50  0000 C CNN
+F 1 "D" H 700 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2000 50  0001 C CNN
+F 3 "~" H 1000 2000 50  0001 C CNN
+	1    1000 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 6513CD46
+P 1000 2100
+F 0 "D14" H 600 2100 50  0000 C CNN
+F 1 "D" H 700 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2100 50  0001 C CNN
+F 3 "~" H 1000 2100 50  0001 C CNN
+	1    1000 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 6513CD4C
+P 1000 2200
+F 0 "D15" H 600 2200 50  0000 C CNN
+F 1 "D" H 700 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2200 50  0001 C CNN
+F 3 "~" H 1000 2200 50  0001 C CNN
+	1    1000 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 6513CD52
+P 1000 2300
+F 0 "D16" H 600 2300 50  0000 C CNN
+F 1 "D" H 700 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2300 50  0001 C CNN
+F 3 "~" H 1000 2300 50  0001 C CNN
+	1    1000 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 65141452
+P 1000 2400
+F 0 "D17" H 600 2400 50  0000 C CNN
+F 1 "D" H 700 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2400 50  0001 C CNN
+F 3 "~" H 1000 2400 50  0001 C CNN
+	1    1000 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 65141458
+P 1000 2500
+F 0 "D18" H 600 2500 50  0000 C CNN
+F 1 "D" H 700 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2500 50  0001 C CNN
+F 3 "~" H 1000 2500 50  0001 C CNN
+	1    1000 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 6514145E
+P 1000 2600
+F 0 "D19" H 600 2600 50  0000 C CNN
+F 1 "D" H 700 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2600 50  0001 C CNN
+F 3 "~" H 1000 2600 50  0001 C CNN
+	1    1000 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 65141464
+P 1000 2700
+F 0 "D20" H 600 2700 50  0000 C CNN
+F 1 "D" H 700 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2700 50  0001 C CNN
+F 3 "~" H 1000 2700 50  0001 C CNN
+	1    1000 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 6514146A
+P 1000 2800
+F 0 "D21" H 600 2800 50  0000 C CNN
+F 1 "D" H 700 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2800 50  0001 C CNN
+F 3 "~" H 1000 2800 50  0001 C CNN
+	1    1000 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 65141470
+P 1000 2900
+F 0 "D22" H 600 2900 50  0000 C CNN
+F 1 "D" H 700 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 2900 50  0001 C CNN
+F 3 "~" H 1000 2900 50  0001 C CNN
+	1    1000 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 65141476
+P 1000 3000
+F 0 "D23" H 600 3000 50  0000 C CNN
+F 1 "D" H 700 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 3000 50  0001 C CNN
+F 3 "~" H 1000 3000 50  0001 C CNN
+	1    1000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 6514147C
+P 1000 3100
+F 0 "D24" H 600 3100 50  0000 C CNN
+F 1 "D" H 700 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1000 3100 50  0001 C CNN
+F 3 "~" H 1000 3100 50  0001 C CNN
+	1    1000 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J2
+U 1 1 65161466
+P 1750 1900
+F 0 "J2" H 1858 3181 50  0000 C CNN
+F 1 "GPIO" H 1858 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 1750 1900 50  0001 C CNN
+F 3 "~" H 1750 1900 50  0001 C CNN
+	1    1750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 800  2000 800 
+Wire Wire Line
+	1950 900  2000 900 
+Wire Wire Line
+	1950 1000 2000 1000
+Wire Wire Line
+	1950 1100 2000 1100
+Wire Wire Line
+	1950 1200 2000 1200
+Wire Wire Line
+	1950 1300 2000 1300
+Wire Wire Line
+	1950 1400 2000 1400
+Wire Wire Line
+	1950 1500 2000 1500
+Wire Wire Line
+	1950 1600 2000 1600
+Wire Wire Line
+	1950 1700 2000 1700
+Wire Wire Line
+	1950 1800 2000 1800
+Wire Wire Line
+	1950 1900 2000 1900
+Wire Wire Line
+	1950 2000 2000 2000
+Wire Wire Line
+	1950 2100 2000 2100
+Wire Wire Line
+	1950 2200 2000 2200
+Wire Wire Line
+	1950 2300 2000 2300
+Wire Wire Line
+	1950 2400 2000 2400
+Wire Wire Line
+	1950 2500 2000 2500
+Wire Wire Line
+	1950 2600 2000 2600
+Wire Wire Line
+	1950 2700 2000 2700
+Wire Wire Line
+	1950 2800 2000 2800
+Wire Wire Line
+	1950 2900 2000 2900
+Wire Wire Line
+	1950 3000 2000 3000
+Wire Wire Line
+	1950 3100 2000 3100
+$Comp
+L power:GND #PWR02
+U 1 1 65161484
+P 2400 3200
+F 0 "#PWR02" H 2400 2950 50  0001 C CNN
+F 1 "GND" H 2405 3027 50  0000 C CNN
+F 2 "" H 2400 3200 50  0001 C CNN
+F 3 "" H 2400 3200 50  0001 C CNN
+	1    2400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3200 2400 3100
+Wire Wire Line
+	2400 800  2300 800 
+Wire Wire Line
+	2300 900  2400 900 
+Connection ~ 2400 900 
+Wire Wire Line
+	2400 900  2400 800 
+Wire Wire Line
+	2300 1000 2400 1000
+Connection ~ 2400 1000
+Wire Wire Line
+	2400 1000 2400 900 
+Wire Wire Line
+	2300 1100 2400 1100
+Connection ~ 2400 1100
+Wire Wire Line
+	2400 1100 2400 1000
+Wire Wire Line
+	2300 1200 2400 1200
+Connection ~ 2400 1200
+Wire Wire Line
+	2400 1200 2400 1100
+Wire Wire Line
+	2300 1300 2400 1300
+Connection ~ 2400 1300
+Wire Wire Line
+	2400 1300 2400 1200
+Wire Wire Line
+	2300 1400 2400 1400
+Connection ~ 2400 1400
+Wire Wire Line
+	2400 1400 2400 1300
+Connection ~ 2400 1500
+Wire Wire Line
+	2400 1500 2400 1400
+Wire Wire Line
+	2300 1500 2400 1500
+Wire Wire Line
+	2300 1600 2400 1600
+Connection ~ 2400 1600
+Wire Wire Line
+	2400 1600 2400 1500
+Wire Wire Line
+	2300 1700 2400 1700
+Connection ~ 2400 1700
+Wire Wire Line
+	2400 1700 2400 1600
+Wire Wire Line
+	2300 3100 2400 3100
+Connection ~ 2400 3100
+Wire Wire Line
+	2400 3100 2400 3000
+Wire Wire Line
+	2300 3000 2400 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2400 3000 2400 2900
+Wire Wire Line
+	2300 2900 2400 2900
+Connection ~ 2400 2900
+Wire Wire Line
+	2400 2900 2400 2800
+Wire Wire Line
+	2300 2800 2400 2800
+Connection ~ 2400 2800
+Wire Wire Line
+	2400 2800 2400 2700
+Wire Wire Line
+	2300 2700 2400 2700
+Connection ~ 2400 2700
+Wire Wire Line
+	2400 2700 2400 2600
+Wire Wire Line
+	2300 2600 2400 2600
+Connection ~ 2400 2600
+Wire Wire Line
+	2400 2600 2400 2500
+Wire Wire Line
+	2300 2500 2400 2500
+Connection ~ 2400 2500
+Wire Wire Line
+	2400 2500 2400 2400
+Wire Wire Line
+	2300 2400 2400 2400
+Connection ~ 2400 2400
+Wire Wire Line
+	2400 2400 2400 2300
+Wire Wire Line
+	2300 2300 2400 2300
+Connection ~ 2400 2300
+Wire Wire Line
+	2400 2300 2400 2200
+Wire Wire Line
+	2300 2200 2400 2200
+Connection ~ 2400 2200
+Wire Wire Line
+	2400 2200 2400 2100
+Wire Wire Line
+	2300 2100 2400 2100
+Connection ~ 2400 2100
+Wire Wire Line
+	2400 2100 2400 2000
+Wire Wire Line
+	2300 2000 2400 2000
+Connection ~ 2400 2000
+Wire Wire Line
+	2400 2000 2400 1900
+Wire Wire Line
+	2300 1900 2400 1900
+Connection ~ 2400 1900
+Wire Wire Line
+	2400 1900 2400 1800
+Wire Wire Line
+	2300 1800 2400 1800
+Connection ~ 2400 1800
+Wire Wire Line
+	2400 1800 2400 1700
+$Comp
+L Device:D D25
+U 1 1 651614D1
+P 2150 800
+F 0 "D25" H 1750 800 50  0000 C CNN
+F 1 "D" H 1850 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 800 50  0001 C CNN
+F 3 "~" H 2150 800 50  0001 C CNN
+	1    2150 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 651614D7
+P 2150 900
+F 0 "D26" H 1750 900 50  0000 C CNN
+F 1 "D" H 1850 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 900 50  0001 C CNN
+F 3 "~" H 2150 900 50  0001 C CNN
+	1    2150 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 651614DD
+P 2150 1000
+F 0 "D27" H 1750 1000 50  0000 C CNN
+F 1 "D" H 1850 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1000 50  0001 C CNN
+F 3 "~" H 2150 1000 50  0001 C CNN
+	1    2150 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 651614E3
+P 2150 1100
+F 0 "D28" H 1750 1100 50  0000 C CNN
+F 1 "D" H 1850 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1100 50  0001 C CNN
+F 3 "~" H 2150 1100 50  0001 C CNN
+	1    2150 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 651614E9
+P 2150 1200
+F 0 "D29" H 1750 1200 50  0000 C CNN
+F 1 "D" H 1850 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1200 50  0001 C CNN
+F 3 "~" H 2150 1200 50  0001 C CNN
+	1    2150 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 651614EF
+P 2150 1300
+F 0 "D30" H 1750 1300 50  0000 C CNN
+F 1 "D" H 1850 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1300 50  0001 C CNN
+F 3 "~" H 2150 1300 50  0001 C CNN
+	1    2150 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 651614F5
+P 2150 1400
+F 0 "D31" H 1750 1400 50  0000 C CNN
+F 1 "D" H 1850 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1400 50  0001 C CNN
+F 3 "~" H 2150 1400 50  0001 C CNN
+	1    2150 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 651614FB
+P 2150 1500
+F 0 "D32" H 1750 1500 50  0000 C CNN
+F 1 "D" H 1850 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1500 50  0001 C CNN
+F 3 "~" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 65161501
+P 2150 1600
+F 0 "D33" H 1750 1600 50  0000 C CNN
+F 1 "D" H 1850 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1600 50  0001 C CNN
+F 3 "~" H 2150 1600 50  0001 C CNN
+	1    2150 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 65161507
+P 2150 1700
+F 0 "D34" H 1750 1700 50  0000 C CNN
+F 1 "D" H 1850 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1700 50  0001 C CNN
+F 3 "~" H 2150 1700 50  0001 C CNN
+	1    2150 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 6516150D
+P 2150 1800
+F 0 "D35" H 1750 1800 50  0000 C CNN
+F 1 "D" H 1850 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1800 50  0001 C CNN
+F 3 "~" H 2150 1800 50  0001 C CNN
+	1    2150 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 65161513
+P 2150 1900
+F 0 "D36" H 1750 1900 50  0000 C CNN
+F 1 "D" H 1850 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 1900 50  0001 C CNN
+F 3 "~" H 2150 1900 50  0001 C CNN
+	1    2150 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 65161519
+P 2150 2000
+F 0 "D37" H 1750 2000 50  0000 C CNN
+F 1 "D" H 1850 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2000 50  0001 C CNN
+F 3 "~" H 2150 2000 50  0001 C CNN
+	1    2150 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 6516151F
+P 2150 2100
+F 0 "D38" H 1750 2100 50  0000 C CNN
+F 1 "D" H 1850 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2100 50  0001 C CNN
+F 3 "~" H 2150 2100 50  0001 C CNN
+	1    2150 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 65161525
+P 2150 2200
+F 0 "D39" H 1750 2200 50  0000 C CNN
+F 1 "D" H 1850 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2200 50  0001 C CNN
+F 3 "~" H 2150 2200 50  0001 C CNN
+	1    2150 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 6516152B
+P 2150 2300
+F 0 "D40" H 1750 2300 50  0000 C CNN
+F 1 "D" H 1850 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2300 50  0001 C CNN
+F 3 "~" H 2150 2300 50  0001 C CNN
+	1    2150 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 65161531
+P 2150 2400
+F 0 "D41" H 1750 2400 50  0000 C CNN
+F 1 "D" H 1850 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2400 50  0001 C CNN
+F 3 "~" H 2150 2400 50  0001 C CNN
+	1    2150 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 65161537
+P 2150 2500
+F 0 "D42" H 1750 2500 50  0000 C CNN
+F 1 "D" H 1850 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2500 50  0001 C CNN
+F 3 "~" H 2150 2500 50  0001 C CNN
+	1    2150 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 6516153D
+P 2150 2600
+F 0 "D43" H 1750 2600 50  0000 C CNN
+F 1 "D" H 1850 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2600 50  0001 C CNN
+F 3 "~" H 2150 2600 50  0001 C CNN
+	1    2150 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 65161543
+P 2150 2700
+F 0 "D44" H 1750 2700 50  0000 C CNN
+F 1 "D" H 1850 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2700 50  0001 C CNN
+F 3 "~" H 2150 2700 50  0001 C CNN
+	1    2150 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 65161549
+P 2150 2800
+F 0 "D45" H 1750 2800 50  0000 C CNN
+F 1 "D" H 1850 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2800 50  0001 C CNN
+F 3 "~" H 2150 2800 50  0001 C CNN
+	1    2150 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 6516154F
+P 2150 2900
+F 0 "D46" H 1750 2900 50  0000 C CNN
+F 1 "D" H 1850 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 2900 50  0001 C CNN
+F 3 "~" H 2150 2900 50  0001 C CNN
+	1    2150 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 65161555
+P 2150 3000
+F 0 "D47" H 1750 3000 50  0000 C CNN
+F 1 "D" H 1850 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 3000 50  0001 C CNN
+F 3 "~" H 2150 3000 50  0001 C CNN
+	1    2150 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 6516155B
+P 2150 3100
+F 0 "D48" H 1750 3100 50  0000 C CNN
+F 1 "D" H 1850 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2150 3100 50  0001 C CNN
+F 3 "~" H 2150 3100 50  0001 C CNN
+	1    2150 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J3
+U 1 1 65176832
+P 2900 1900
+F 0 "J3" H 3008 3181 50  0000 C CNN
+F 1 "GPIO" H 3008 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 2900 1900 50  0001 C CNN
+F 3 "~" H 2900 1900 50  0001 C CNN
+	1    2900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 800  3150 800 
+Wire Wire Line
+	3100 900  3150 900 
+Wire Wire Line
+	3100 1000 3150 1000
+Wire Wire Line
+	3100 1100 3150 1100
+Wire Wire Line
+	3100 1200 3150 1200
+Wire Wire Line
+	3100 1300 3150 1300
+Wire Wire Line
+	3100 1400 3150 1400
+Wire Wire Line
+	3100 1500 3150 1500
+Wire Wire Line
+	3100 1600 3150 1600
+Wire Wire Line
+	3100 1700 3150 1700
+Wire Wire Line
+	3100 1800 3150 1800
+Wire Wire Line
+	3100 1900 3150 1900
+Wire Wire Line
+	3100 2000 3150 2000
+Wire Wire Line
+	3100 2100 3150 2100
+Wire Wire Line
+	3100 2200 3150 2200
+Wire Wire Line
+	3100 2300 3150 2300
+Wire Wire Line
+	3100 2400 3150 2400
+Wire Wire Line
+	3100 2500 3150 2500
+Wire Wire Line
+	3100 2600 3150 2600
+Wire Wire Line
+	3100 2700 3150 2700
+Wire Wire Line
+	3100 2800 3150 2800
+Wire Wire Line
+	3100 2900 3150 2900
+Wire Wire Line
+	3100 3000 3150 3000
+Wire Wire Line
+	3100 3100 3150 3100
+$Comp
+L power:GND #PWR03
+U 1 1 65176850
+P 3550 3200
+F 0 "#PWR03" H 3550 2950 50  0001 C CNN
+F 1 "GND" H 3555 3027 50  0000 C CNN
+F 2 "" H 3550 3200 50  0001 C CNN
+F 3 "" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3200 3550 3100
+Wire Wire Line
+	3550 800  3450 800 
+Wire Wire Line
+	3450 900  3550 900 
+Connection ~ 3550 900 
+Wire Wire Line
+	3550 900  3550 800 
+Wire Wire Line
+	3450 1000 3550 1000
+Connection ~ 3550 1000
+Wire Wire Line
+	3550 1000 3550 900 
+Wire Wire Line
+	3450 1100 3550 1100
+Connection ~ 3550 1100
+Wire Wire Line
+	3550 1100 3550 1000
+Wire Wire Line
+	3450 1200 3550 1200
+Connection ~ 3550 1200
+Wire Wire Line
+	3550 1200 3550 1100
+Wire Wire Line
+	3450 1300 3550 1300
+Connection ~ 3550 1300
+Wire Wire Line
+	3550 1300 3550 1200
+Wire Wire Line
+	3450 1400 3550 1400
+Connection ~ 3550 1400
+Wire Wire Line
+	3550 1400 3550 1300
+Connection ~ 3550 1500
+Wire Wire Line
+	3550 1500 3550 1400
+Wire Wire Line
+	3450 1500 3550 1500
+Wire Wire Line
+	3450 1600 3550 1600
+Connection ~ 3550 1600
+Wire Wire Line
+	3550 1600 3550 1500
+Wire Wire Line
+	3450 1700 3550 1700
+Connection ~ 3550 1700
+Wire Wire Line
+	3550 1700 3550 1600
+Wire Wire Line
+	3450 3100 3550 3100
+Connection ~ 3550 3100
+Wire Wire Line
+	3550 3100 3550 3000
+Wire Wire Line
+	3450 3000 3550 3000
+Connection ~ 3550 3000
+Wire Wire Line
+	3550 3000 3550 2900
+Wire Wire Line
+	3450 2900 3550 2900
+Connection ~ 3550 2900
+Wire Wire Line
+	3550 2900 3550 2800
+Wire Wire Line
+	3450 2800 3550 2800
+Connection ~ 3550 2800
+Wire Wire Line
+	3550 2800 3550 2700
+Wire Wire Line
+	3450 2700 3550 2700
+Connection ~ 3550 2700
+Wire Wire Line
+	3550 2700 3550 2600
+Wire Wire Line
+	3450 2600 3550 2600
+Connection ~ 3550 2600
+Wire Wire Line
+	3550 2600 3550 2500
+Wire Wire Line
+	3450 2500 3550 2500
+Connection ~ 3550 2500
+Wire Wire Line
+	3550 2500 3550 2400
+Wire Wire Line
+	3450 2400 3550 2400
+Connection ~ 3550 2400
+Wire Wire Line
+	3550 2400 3550 2300
+Wire Wire Line
+	3450 2300 3550 2300
+Connection ~ 3550 2300
+Wire Wire Line
+	3550 2300 3550 2200
+Wire Wire Line
+	3450 2200 3550 2200
+Connection ~ 3550 2200
+Wire Wire Line
+	3550 2200 3550 2100
+Wire Wire Line
+	3450 2100 3550 2100
+Connection ~ 3550 2100
+Wire Wire Line
+	3550 2100 3550 2000
+Wire Wire Line
+	3450 2000 3550 2000
+Connection ~ 3550 2000
+Wire Wire Line
+	3550 2000 3550 1900
+Wire Wire Line
+	3450 1900 3550 1900
+Connection ~ 3550 1900
+Wire Wire Line
+	3550 1900 3550 1800
+Wire Wire Line
+	3450 1800 3550 1800
+Connection ~ 3550 1800
+Wire Wire Line
+	3550 1800 3550 1700
+$Comp
+L Device:D D49
+U 1 1 6517689D
+P 3300 800
+F 0 "D49" H 2900 800 50  0000 C CNN
+F 1 "D" H 3000 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 800 50  0001 C CNN
+F 3 "~" H 3300 800 50  0001 C CNN
+	1    3300 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 651768A3
+P 3300 900
+F 0 "D50" H 2900 900 50  0000 C CNN
+F 1 "D" H 3000 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 900 50  0001 C CNN
+F 3 "~" H 3300 900 50  0001 C CNN
+	1    3300 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 651768A9
+P 3300 1000
+F 0 "D51" H 2900 1000 50  0000 C CNN
+F 1 "D" H 3000 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1000 50  0001 C CNN
+F 3 "~" H 3300 1000 50  0001 C CNN
+	1    3300 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 651768AF
+P 3300 1100
+F 0 "D52" H 2900 1100 50  0000 C CNN
+F 1 "D" H 3000 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1100 50  0001 C CNN
+F 3 "~" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 651768B5
+P 3300 1200
+F 0 "D53" H 2900 1200 50  0000 C CNN
+F 1 "D" H 3000 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1200 50  0001 C CNN
+F 3 "~" H 3300 1200 50  0001 C CNN
+	1    3300 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 651768BB
+P 3300 1300
+F 0 "D54" H 2900 1300 50  0000 C CNN
+F 1 "D" H 3000 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1300 50  0001 C CNN
+F 3 "~" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 651768C1
+P 3300 1400
+F 0 "D55" H 2900 1400 50  0000 C CNN
+F 1 "D" H 3000 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1400 50  0001 C CNN
+F 3 "~" H 3300 1400 50  0001 C CNN
+	1    3300 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 651768C7
+P 3300 1500
+F 0 "D56" H 2900 1500 50  0000 C CNN
+F 1 "D" H 3000 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1500 50  0001 C CNN
+F 3 "~" H 3300 1500 50  0001 C CNN
+	1    3300 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 651768CD
+P 3300 1600
+F 0 "D57" H 2900 1600 50  0000 C CNN
+F 1 "D" H 3000 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1600 50  0001 C CNN
+F 3 "~" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 651768D3
+P 3300 1700
+F 0 "D58" H 2900 1700 50  0000 C CNN
+F 1 "D" H 3000 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1700 50  0001 C CNN
+F 3 "~" H 3300 1700 50  0001 C CNN
+	1    3300 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 651768D9
+P 3300 1800
+F 0 "D59" H 2900 1800 50  0000 C CNN
+F 1 "D" H 3000 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1800 50  0001 C CNN
+F 3 "~" H 3300 1800 50  0001 C CNN
+	1    3300 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 651768DF
+P 3300 1900
+F 0 "D60" H 2900 1900 50  0000 C CNN
+F 1 "D" H 3000 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 1900 50  0001 C CNN
+F 3 "~" H 3300 1900 50  0001 C CNN
+	1    3300 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 651768E5
+P 3300 2000
+F 0 "D61" H 2900 2000 50  0000 C CNN
+F 1 "D" H 3000 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2000 50  0001 C CNN
+F 3 "~" H 3300 2000 50  0001 C CNN
+	1    3300 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 651768EB
+P 3300 2100
+F 0 "D62" H 2900 2100 50  0000 C CNN
+F 1 "D" H 3000 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2100 50  0001 C CNN
+F 3 "~" H 3300 2100 50  0001 C CNN
+	1    3300 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 651768F1
+P 3300 2200
+F 0 "D63" H 2900 2200 50  0000 C CNN
+F 1 "D" H 3000 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2200 50  0001 C CNN
+F 3 "~" H 3300 2200 50  0001 C CNN
+	1    3300 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 651768F7
+P 3300 2300
+F 0 "D64" H 2900 2300 50  0000 C CNN
+F 1 "D" H 3000 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2300 50  0001 C CNN
+F 3 "~" H 3300 2300 50  0001 C CNN
+	1    3300 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 651768FD
+P 3300 2400
+F 0 "D65" H 2900 2400 50  0000 C CNN
+F 1 "D" H 3000 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2400 50  0001 C CNN
+F 3 "~" H 3300 2400 50  0001 C CNN
+	1    3300 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D66
+U 1 1 65176903
+P 3300 2500
+F 0 "D66" H 2900 2500 50  0000 C CNN
+F 1 "D" H 3000 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2500 50  0001 C CNN
+F 3 "~" H 3300 2500 50  0001 C CNN
+	1    3300 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D67
+U 1 1 65176909
+P 3300 2600
+F 0 "D67" H 2900 2600 50  0000 C CNN
+F 1 "D" H 3000 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2600 50  0001 C CNN
+F 3 "~" H 3300 2600 50  0001 C CNN
+	1    3300 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D68
+U 1 1 6517690F
+P 3300 2700
+F 0 "D68" H 2900 2700 50  0000 C CNN
+F 1 "D" H 3000 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2700 50  0001 C CNN
+F 3 "~" H 3300 2700 50  0001 C CNN
+	1    3300 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D69
+U 1 1 65176915
+P 3300 2800
+F 0 "D69" H 2900 2800 50  0000 C CNN
+F 1 "D" H 3000 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2800 50  0001 C CNN
+F 3 "~" H 3300 2800 50  0001 C CNN
+	1    3300 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D70
+U 1 1 6517691B
+P 3300 2900
+F 0 "D70" H 2900 2900 50  0000 C CNN
+F 1 "D" H 3000 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 2900 50  0001 C CNN
+F 3 "~" H 3300 2900 50  0001 C CNN
+	1    3300 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 65176921
+P 3300 3000
+F 0 "D71" H 2900 3000 50  0000 C CNN
+F 1 "D" H 3000 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 3000 50  0001 C CNN
+F 3 "~" H 3300 3000 50  0001 C CNN
+	1    3300 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D72
+U 1 1 65176927
+P 3300 3100
+F 0 "D72" H 2900 3100 50  0000 C CNN
+F 1 "D" H 3000 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3300 3100 50  0001 C CNN
+F 3 "~" H 3300 3100 50  0001 C CNN
+	1    3300 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J4
+U 1 1 6518E54F
+P 4100 1900
+F 0 "J4" H 4208 3181 50  0000 C CNN
+F 1 "GPIO" H 4208 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 4100 1900 50  0001 C CNN
+F 3 "~" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 800  4350 800 
+Wire Wire Line
+	4300 900  4350 900 
+Wire Wire Line
+	4300 1000 4350 1000
+Wire Wire Line
+	4300 1100 4350 1100
+Wire Wire Line
+	4300 1200 4350 1200
+Wire Wire Line
+	4300 1300 4350 1300
+Wire Wire Line
+	4300 1400 4350 1400
+Wire Wire Line
+	4300 1500 4350 1500
+Wire Wire Line
+	4300 1600 4350 1600
+Wire Wire Line
+	4300 1700 4350 1700
+Wire Wire Line
+	4300 1800 4350 1800
+Wire Wire Line
+	4300 1900 4350 1900
+Wire Wire Line
+	4300 2000 4350 2000
+Wire Wire Line
+	4300 2100 4350 2100
+Wire Wire Line
+	4300 2200 4350 2200
+Wire Wire Line
+	4300 2300 4350 2300
+Wire Wire Line
+	4300 2400 4350 2400
+Wire Wire Line
+	4300 2500 4350 2500
+Wire Wire Line
+	4300 2600 4350 2600
+Wire Wire Line
+	4300 2700 4350 2700
+Wire Wire Line
+	4300 2800 4350 2800
+Wire Wire Line
+	4300 2900 4350 2900
+Wire Wire Line
+	4300 3000 4350 3000
+Wire Wire Line
+	4300 3100 4350 3100
+$Comp
+L power:GND #PWR04
+U 1 1 6518E56D
+P 4750 3200
+F 0 "#PWR04" H 4750 2950 50  0001 C CNN
+F 1 "GND" H 4755 3027 50  0000 C CNN
+F 2 "" H 4750 3200 50  0001 C CNN
+F 3 "" H 4750 3200 50  0001 C CNN
+	1    4750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3200 4750 3100
+Wire Wire Line
+	4750 800  4650 800 
+Wire Wire Line
+	4650 900  4750 900 
+Connection ~ 4750 900 
+Wire Wire Line
+	4750 900  4750 800 
+Wire Wire Line
+	4650 1000 4750 1000
+Connection ~ 4750 1000
+Wire Wire Line
+	4750 1000 4750 900 
+Wire Wire Line
+	4650 1100 4750 1100
+Connection ~ 4750 1100
+Wire Wire Line
+	4750 1100 4750 1000
+Wire Wire Line
+	4650 1200 4750 1200
+Connection ~ 4750 1200
+Wire Wire Line
+	4750 1200 4750 1100
+Wire Wire Line
+	4650 1300 4750 1300
+Connection ~ 4750 1300
+Wire Wire Line
+	4750 1300 4750 1200
+Wire Wire Line
+	4650 1400 4750 1400
+Connection ~ 4750 1400
+Wire Wire Line
+	4750 1400 4750 1300
+Connection ~ 4750 1500
+Wire Wire Line
+	4750 1500 4750 1400
+Wire Wire Line
+	4650 1500 4750 1500
+Wire Wire Line
+	4650 1600 4750 1600
+Connection ~ 4750 1600
+Wire Wire Line
+	4750 1600 4750 1500
+Wire Wire Line
+	4650 1700 4750 1700
+Connection ~ 4750 1700
+Wire Wire Line
+	4750 1700 4750 1600
+Wire Wire Line
+	4650 3100 4750 3100
+Connection ~ 4750 3100
+Wire Wire Line
+	4750 3100 4750 3000
+Wire Wire Line
+	4650 3000 4750 3000
+Connection ~ 4750 3000
+Wire Wire Line
+	4750 3000 4750 2900
+Wire Wire Line
+	4650 2900 4750 2900
+Connection ~ 4750 2900
+Wire Wire Line
+	4750 2900 4750 2800
+Wire Wire Line
+	4650 2800 4750 2800
+Connection ~ 4750 2800
+Wire Wire Line
+	4750 2800 4750 2700
+Wire Wire Line
+	4650 2700 4750 2700
+Connection ~ 4750 2700
+Wire Wire Line
+	4750 2700 4750 2600
+Wire Wire Line
+	4650 2600 4750 2600
+Connection ~ 4750 2600
+Wire Wire Line
+	4750 2600 4750 2500
+Wire Wire Line
+	4650 2500 4750 2500
+Connection ~ 4750 2500
+Wire Wire Line
+	4750 2500 4750 2400
+Wire Wire Line
+	4650 2400 4750 2400
+Connection ~ 4750 2400
+Wire Wire Line
+	4750 2400 4750 2300
+Wire Wire Line
+	4650 2300 4750 2300
+Connection ~ 4750 2300
+Wire Wire Line
+	4750 2300 4750 2200
+Wire Wire Line
+	4650 2200 4750 2200
+Connection ~ 4750 2200
+Wire Wire Line
+	4750 2200 4750 2100
+Wire Wire Line
+	4650 2100 4750 2100
+Connection ~ 4750 2100
+Wire Wire Line
+	4750 2100 4750 2000
+Wire Wire Line
+	4650 2000 4750 2000
+Connection ~ 4750 2000
+Wire Wire Line
+	4750 2000 4750 1900
+Wire Wire Line
+	4650 1900 4750 1900
+Connection ~ 4750 1900
+Wire Wire Line
+	4750 1900 4750 1800
+Wire Wire Line
+	4650 1800 4750 1800
+Connection ~ 4750 1800
+Wire Wire Line
+	4750 1800 4750 1700
+$Comp
+L Device:D D73
+U 1 1 6518E5BA
+P 4500 800
+F 0 "D73" H 4100 800 50  0000 C CNN
+F 1 "D" H 4200 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 800 50  0001 C CNN
+F 3 "~" H 4500 800 50  0001 C CNN
+	1    4500 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D74
+U 1 1 6518E5C0
+P 4500 900
+F 0 "D74" H 4100 900 50  0000 C CNN
+F 1 "D" H 4200 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 900 50  0001 C CNN
+F 3 "~" H 4500 900 50  0001 C CNN
+	1    4500 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D75
+U 1 1 6518E5C6
+P 4500 1000
+F 0 "D75" H 4100 1000 50  0000 C CNN
+F 1 "D" H 4200 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1000 50  0001 C CNN
+F 3 "~" H 4500 1000 50  0001 C CNN
+	1    4500 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D76
+U 1 1 6518E5CC
+P 4500 1100
+F 0 "D76" H 4100 1100 50  0000 C CNN
+F 1 "D" H 4200 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1100 50  0001 C CNN
+F 3 "~" H 4500 1100 50  0001 C CNN
+	1    4500 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D77
+U 1 1 6518E5D2
+P 4500 1200
+F 0 "D77" H 4100 1200 50  0000 C CNN
+F 1 "D" H 4200 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1200 50  0001 C CNN
+F 3 "~" H 4500 1200 50  0001 C CNN
+	1    4500 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D78
+U 1 1 6518E5D8
+P 4500 1300
+F 0 "D78" H 4100 1300 50  0000 C CNN
+F 1 "D" H 4200 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1300 50  0001 C CNN
+F 3 "~" H 4500 1300 50  0001 C CNN
+	1    4500 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D79
+U 1 1 6518E5DE
+P 4500 1400
+F 0 "D79" H 4100 1400 50  0000 C CNN
+F 1 "D" H 4200 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1400 50  0001 C CNN
+F 3 "~" H 4500 1400 50  0001 C CNN
+	1    4500 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D80
+U 1 1 6518E5E4
+P 4500 1500
+F 0 "D80" H 4100 1500 50  0000 C CNN
+F 1 "D" H 4200 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1500 50  0001 C CNN
+F 3 "~" H 4500 1500 50  0001 C CNN
+	1    4500 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D81
+U 1 1 6518E5EA
+P 4500 1600
+F 0 "D81" H 4100 1600 50  0000 C CNN
+F 1 "D" H 4200 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1600 50  0001 C CNN
+F 3 "~" H 4500 1600 50  0001 C CNN
+	1    4500 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D82
+U 1 1 6518E5F0
+P 4500 1700
+F 0 "D82" H 4100 1700 50  0000 C CNN
+F 1 "D" H 4200 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1700 50  0001 C CNN
+F 3 "~" H 4500 1700 50  0001 C CNN
+	1    4500 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D83
+U 1 1 6518E5F6
+P 4500 1800
+F 0 "D83" H 4100 1800 50  0000 C CNN
+F 1 "D" H 4200 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1800 50  0001 C CNN
+F 3 "~" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D84
+U 1 1 6518E5FC
+P 4500 1900
+F 0 "D84" H 4100 1900 50  0000 C CNN
+F 1 "D" H 4200 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 1900 50  0001 C CNN
+F 3 "~" H 4500 1900 50  0001 C CNN
+	1    4500 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D85
+U 1 1 6518E602
+P 4500 2000
+F 0 "D85" H 4100 2000 50  0000 C CNN
+F 1 "D" H 4200 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2000 50  0001 C CNN
+F 3 "~" H 4500 2000 50  0001 C CNN
+	1    4500 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D86
+U 1 1 6518E608
+P 4500 2100
+F 0 "D86" H 4100 2100 50  0000 C CNN
+F 1 "D" H 4200 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2100 50  0001 C CNN
+F 3 "~" H 4500 2100 50  0001 C CNN
+	1    4500 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D87
+U 1 1 6518E60E
+P 4500 2200
+F 0 "D87" H 4100 2200 50  0000 C CNN
+F 1 "D" H 4200 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2200 50  0001 C CNN
+F 3 "~" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D88
+U 1 1 6518E614
+P 4500 2300
+F 0 "D88" H 4100 2300 50  0000 C CNN
+F 1 "D" H 4200 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2300 50  0001 C CNN
+F 3 "~" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D89
+U 1 1 6518E61A
+P 4500 2400
+F 0 "D89" H 4100 2400 50  0000 C CNN
+F 1 "D" H 4200 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2400 50  0001 C CNN
+F 3 "~" H 4500 2400 50  0001 C CNN
+	1    4500 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D90
+U 1 1 6518E620
+P 4500 2500
+F 0 "D90" H 4100 2500 50  0000 C CNN
+F 1 "D" H 4200 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2500 50  0001 C CNN
+F 3 "~" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D91
+U 1 1 6518E626
+P 4500 2600
+F 0 "D91" H 4100 2600 50  0000 C CNN
+F 1 "D" H 4200 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2600 50  0001 C CNN
+F 3 "~" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D92
+U 1 1 6518E62C
+P 4500 2700
+F 0 "D92" H 4100 2700 50  0000 C CNN
+F 1 "D" H 4200 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2700 50  0001 C CNN
+F 3 "~" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D93
+U 1 1 6518E632
+P 4500 2800
+F 0 "D93" H 4100 2800 50  0000 C CNN
+F 1 "D" H 4200 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2800 50  0001 C CNN
+F 3 "~" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D94
+U 1 1 6518E638
+P 4500 2900
+F 0 "D94" H 4100 2900 50  0000 C CNN
+F 1 "D" H 4200 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 2900 50  0001 C CNN
+F 3 "~" H 4500 2900 50  0001 C CNN
+	1    4500 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D95
+U 1 1 6518E63E
+P 4500 3000
+F 0 "D95" H 4100 3000 50  0000 C CNN
+F 1 "D" H 4200 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 3000 50  0001 C CNN
+F 3 "~" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D96
+U 1 1 6518E644
+P 4500 3100
+F 0 "D96" H 4100 3100 50  0000 C CNN
+F 1 "D" H 4200 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4500 3100 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J5
+U 1 1 651ACE79
+P 5200 1900
+F 0 "J5" H 5308 3181 50  0000 C CNN
+F 1 "GPIO" H 5308 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 5200 1900 50  0001 C CNN
+F 3 "~" H 5200 1900 50  0001 C CNN
+	1    5200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 800  5450 800 
+Wire Wire Line
+	5400 900  5450 900 
+Wire Wire Line
+	5400 1000 5450 1000
+Wire Wire Line
+	5400 1100 5450 1100
+Wire Wire Line
+	5400 1200 5450 1200
+Wire Wire Line
+	5400 1300 5450 1300
+Wire Wire Line
+	5400 1400 5450 1400
+Wire Wire Line
+	5400 1500 5450 1500
+Wire Wire Line
+	5400 1600 5450 1600
+Wire Wire Line
+	5400 1700 5450 1700
+Wire Wire Line
+	5400 1800 5450 1800
+Wire Wire Line
+	5400 1900 5450 1900
+Wire Wire Line
+	5400 2000 5450 2000
+Wire Wire Line
+	5400 2100 5450 2100
+Wire Wire Line
+	5400 2200 5450 2200
+Wire Wire Line
+	5400 2300 5450 2300
+Wire Wire Line
+	5400 2400 5450 2400
+Wire Wire Line
+	5400 2500 5450 2500
+Wire Wire Line
+	5400 2600 5450 2600
+Wire Wire Line
+	5400 2700 5450 2700
+Wire Wire Line
+	5400 2800 5450 2800
+Wire Wire Line
+	5400 2900 5450 2900
+Wire Wire Line
+	5400 3000 5450 3000
+Wire Wire Line
+	5400 3100 5450 3100
+$Comp
+L power:GND #PWR05
+U 1 1 651ACE97
+P 5850 3200
+F 0 "#PWR05" H 5850 2950 50  0001 C CNN
+F 1 "GND" H 5855 3027 50  0000 C CNN
+F 2 "" H 5850 3200 50  0001 C CNN
+F 3 "" H 5850 3200 50  0001 C CNN
+	1    5850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3200 5850 3100
+Wire Wire Line
+	5850 800  5750 800 
+Wire Wire Line
+	5750 900  5850 900 
+Connection ~ 5850 900 
+Wire Wire Line
+	5850 900  5850 800 
+Wire Wire Line
+	5750 1000 5850 1000
+Connection ~ 5850 1000
+Wire Wire Line
+	5850 1000 5850 900 
+Wire Wire Line
+	5750 1100 5850 1100
+Connection ~ 5850 1100
+Wire Wire Line
+	5850 1100 5850 1000
+Wire Wire Line
+	5750 1200 5850 1200
+Connection ~ 5850 1200
+Wire Wire Line
+	5850 1200 5850 1100
+Wire Wire Line
+	5750 1300 5850 1300
+Connection ~ 5850 1300
+Wire Wire Line
+	5850 1300 5850 1200
+Wire Wire Line
+	5750 1400 5850 1400
+Connection ~ 5850 1400
+Wire Wire Line
+	5850 1400 5850 1300
+Connection ~ 5850 1500
+Wire Wire Line
+	5850 1500 5850 1400
+Wire Wire Line
+	5750 1500 5850 1500
+Wire Wire Line
+	5750 1600 5850 1600
+Connection ~ 5850 1600
+Wire Wire Line
+	5850 1600 5850 1500
+Wire Wire Line
+	5750 1700 5850 1700
+Connection ~ 5850 1700
+Wire Wire Line
+	5850 1700 5850 1600
+Wire Wire Line
+	5750 3100 5850 3100
+Connection ~ 5850 3100
+Wire Wire Line
+	5850 3100 5850 3000
+Wire Wire Line
+	5750 3000 5850 3000
+Connection ~ 5850 3000
+Wire Wire Line
+	5850 3000 5850 2900
+Wire Wire Line
+	5750 2900 5850 2900
+Connection ~ 5850 2900
+Wire Wire Line
+	5850 2900 5850 2800
+Wire Wire Line
+	5750 2800 5850 2800
+Connection ~ 5850 2800
+Wire Wire Line
+	5850 2800 5850 2700
+Wire Wire Line
+	5750 2700 5850 2700
+Connection ~ 5850 2700
+Wire Wire Line
+	5850 2700 5850 2600
+Wire Wire Line
+	5750 2600 5850 2600
+Connection ~ 5850 2600
+Wire Wire Line
+	5850 2600 5850 2500
+Wire Wire Line
+	5750 2500 5850 2500
+Connection ~ 5850 2500
+Wire Wire Line
+	5850 2500 5850 2400
+Wire Wire Line
+	5750 2400 5850 2400
+Connection ~ 5850 2400
+Wire Wire Line
+	5850 2400 5850 2300
+Wire Wire Line
+	5750 2300 5850 2300
+Connection ~ 5850 2300
+Wire Wire Line
+	5850 2300 5850 2200
+Wire Wire Line
+	5750 2200 5850 2200
+Connection ~ 5850 2200
+Wire Wire Line
+	5850 2200 5850 2100
+Wire Wire Line
+	5750 2100 5850 2100
+Connection ~ 5850 2100
+Wire Wire Line
+	5850 2100 5850 2000
+Wire Wire Line
+	5750 2000 5850 2000
+Connection ~ 5850 2000
+Wire Wire Line
+	5850 2000 5850 1900
+Wire Wire Line
+	5750 1900 5850 1900
+Connection ~ 5850 1900
+Wire Wire Line
+	5850 1900 5850 1800
+Wire Wire Line
+	5750 1800 5850 1800
+Connection ~ 5850 1800
+Wire Wire Line
+	5850 1800 5850 1700
+$Comp
+L Device:D D97
+U 1 1 651ACEE4
+P 5600 800
+F 0 "D97" H 5200 800 50  0000 C CNN
+F 1 "D" H 5300 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 800 50  0001 C CNN
+F 3 "~" H 5600 800 50  0001 C CNN
+	1    5600 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D98
+U 1 1 651ACEEA
+P 5600 900
+F 0 "D98" H 5200 900 50  0000 C CNN
+F 1 "D" H 5300 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 900 50  0001 C CNN
+F 3 "~" H 5600 900 50  0001 C CNN
+	1    5600 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D99
+U 1 1 651ACEF0
+P 5600 1000
+F 0 "D99" H 5200 1000 50  0000 C CNN
+F 1 "D" H 5300 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1000 50  0001 C CNN
+F 3 "~" H 5600 1000 50  0001 C CNN
+	1    5600 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D100
+U 1 1 651ACEF6
+P 5600 1100
+F 0 "D100" H 5200 1100 50  0000 C CNN
+F 1 "D" H 5300 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1100 50  0001 C CNN
+F 3 "~" H 5600 1100 50  0001 C CNN
+	1    5600 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D101
+U 1 1 651ACEFC
+P 5600 1200
+F 0 "D101" H 5200 1200 50  0000 C CNN
+F 1 "D" H 5300 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1200 50  0001 C CNN
+F 3 "~" H 5600 1200 50  0001 C CNN
+	1    5600 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D102
+U 1 1 651ACF02
+P 5600 1300
+F 0 "D102" H 5200 1300 50  0000 C CNN
+F 1 "D" H 5300 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1300 50  0001 C CNN
+F 3 "~" H 5600 1300 50  0001 C CNN
+	1    5600 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D103
+U 1 1 651ACF08
+P 5600 1400
+F 0 "D103" H 5200 1400 50  0000 C CNN
+F 1 "D" H 5300 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1400 50  0001 C CNN
+F 3 "~" H 5600 1400 50  0001 C CNN
+	1    5600 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D104
+U 1 1 651ACF0E
+P 5600 1500
+F 0 "D104" H 5200 1500 50  0000 C CNN
+F 1 "D" H 5300 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1500 50  0001 C CNN
+F 3 "~" H 5600 1500 50  0001 C CNN
+	1    5600 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D105
+U 1 1 651ACF14
+P 5600 1600
+F 0 "D105" H 5200 1600 50  0000 C CNN
+F 1 "D" H 5300 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1600 50  0001 C CNN
+F 3 "~" H 5600 1600 50  0001 C CNN
+	1    5600 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D106
+U 1 1 651ACF1A
+P 5600 1700
+F 0 "D106" H 5200 1700 50  0000 C CNN
+F 1 "D" H 5300 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1700 50  0001 C CNN
+F 3 "~" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D107
+U 1 1 651ACF20
+P 5600 1800
+F 0 "D107" H 5200 1800 50  0000 C CNN
+F 1 "D" H 5300 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1800 50  0001 C CNN
+F 3 "~" H 5600 1800 50  0001 C CNN
+	1    5600 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D108
+U 1 1 651ACF26
+P 5600 1900
+F 0 "D108" H 5200 1900 50  0000 C CNN
+F 1 "D" H 5300 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 1900 50  0001 C CNN
+F 3 "~" H 5600 1900 50  0001 C CNN
+	1    5600 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D109
+U 1 1 651ACF2C
+P 5600 2000
+F 0 "D109" H 5200 2000 50  0000 C CNN
+F 1 "D" H 5300 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2000 50  0001 C CNN
+F 3 "~" H 5600 2000 50  0001 C CNN
+	1    5600 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D110
+U 1 1 651ACF32
+P 5600 2100
+F 0 "D110" H 5200 2100 50  0000 C CNN
+F 1 "D" H 5300 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2100 50  0001 C CNN
+F 3 "~" H 5600 2100 50  0001 C CNN
+	1    5600 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D111
+U 1 1 651ACF38
+P 5600 2200
+F 0 "D111" H 5200 2200 50  0000 C CNN
+F 1 "D" H 5300 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2200 50  0001 C CNN
+F 3 "~" H 5600 2200 50  0001 C CNN
+	1    5600 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D112
+U 1 1 651ACF3E
+P 5600 2300
+F 0 "D112" H 5200 2300 50  0000 C CNN
+F 1 "D" H 5300 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2300 50  0001 C CNN
+F 3 "~" H 5600 2300 50  0001 C CNN
+	1    5600 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D113
+U 1 1 651ACF44
+P 5600 2400
+F 0 "D113" H 5200 2400 50  0000 C CNN
+F 1 "D" H 5300 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2400 50  0001 C CNN
+F 3 "~" H 5600 2400 50  0001 C CNN
+	1    5600 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D114
+U 1 1 651ACF4A
+P 5600 2500
+F 0 "D114" H 5200 2500 50  0000 C CNN
+F 1 "D" H 5300 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2500 50  0001 C CNN
+F 3 "~" H 5600 2500 50  0001 C CNN
+	1    5600 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D115
+U 1 1 651ACF50
+P 5600 2600
+F 0 "D115" H 5200 2600 50  0000 C CNN
+F 1 "D" H 5300 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2600 50  0001 C CNN
+F 3 "~" H 5600 2600 50  0001 C CNN
+	1    5600 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D116
+U 1 1 651ACF56
+P 5600 2700
+F 0 "D116" H 5200 2700 50  0000 C CNN
+F 1 "D" H 5300 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2700 50  0001 C CNN
+F 3 "~" H 5600 2700 50  0001 C CNN
+	1    5600 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D117
+U 1 1 651ACF5C
+P 5600 2800
+F 0 "D117" H 5200 2800 50  0000 C CNN
+F 1 "D" H 5300 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2800 50  0001 C CNN
+F 3 "~" H 5600 2800 50  0001 C CNN
+	1    5600 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D118
+U 1 1 651ACF62
+P 5600 2900
+F 0 "D118" H 5200 2900 50  0000 C CNN
+F 1 "D" H 5300 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 2900 50  0001 C CNN
+F 3 "~" H 5600 2900 50  0001 C CNN
+	1    5600 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D119
+U 1 1 651ACF68
+P 5600 3000
+F 0 "D119" H 5200 3000 50  0000 C CNN
+F 1 "D" H 5300 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 3000 50  0001 C CNN
+F 3 "~" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D120
+U 1 1 651ACF6E
+P 5600 3100
+F 0 "D120" H 5200 3100 50  0000 C CNN
+F 1 "D" H 5300 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5600 3100 50  0001 C CNN
+F 3 "~" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J6
+U 1 1 651DB51C
+P 6400 1900
+F 0 "J6" H 6508 3181 50  0000 C CNN
+F 1 "GPIO" H 6508 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 6400 1900 50  0001 C CNN
+F 3 "~" H 6400 1900 50  0001 C CNN
+	1    6400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 800  6650 800 
+Wire Wire Line
+	6600 900  6650 900 
+Wire Wire Line
+	6600 1000 6650 1000
+Wire Wire Line
+	6600 1100 6650 1100
+Wire Wire Line
+	6600 1200 6650 1200
+Wire Wire Line
+	6600 1300 6650 1300
+Wire Wire Line
+	6600 1400 6650 1400
+Wire Wire Line
+	6600 1500 6650 1500
+Wire Wire Line
+	6600 1600 6650 1600
+Wire Wire Line
+	6600 1700 6650 1700
+Wire Wire Line
+	6600 1800 6650 1800
+Wire Wire Line
+	6600 1900 6650 1900
+Wire Wire Line
+	6600 2000 6650 2000
+Wire Wire Line
+	6600 2100 6650 2100
+Wire Wire Line
+	6600 2200 6650 2200
+Wire Wire Line
+	6600 2300 6650 2300
+Wire Wire Line
+	6600 2400 6650 2400
+Wire Wire Line
+	6600 2500 6650 2500
+Wire Wire Line
+	6600 2600 6650 2600
+Wire Wire Line
+	6600 2700 6650 2700
+Wire Wire Line
+	6600 2800 6650 2800
+Wire Wire Line
+	6600 2900 6650 2900
+Wire Wire Line
+	6600 3000 6650 3000
+Wire Wire Line
+	6600 3100 6650 3100
+$Comp
+L power:GND #PWR06
+U 1 1 651DB53A
+P 7050 3200
+F 0 "#PWR06" H 7050 2950 50  0001 C CNN
+F 1 "GND" H 7055 3027 50  0000 C CNN
+F 2 "" H 7050 3200 50  0001 C CNN
+F 3 "" H 7050 3200 50  0001 C CNN
+	1    7050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3200 7050 3100
+Wire Wire Line
+	7050 800  6950 800 
+Wire Wire Line
+	6950 900  7050 900 
+Connection ~ 7050 900 
+Wire Wire Line
+	7050 900  7050 800 
+Wire Wire Line
+	6950 1000 7050 1000
+Connection ~ 7050 1000
+Wire Wire Line
+	7050 1000 7050 900 
+Wire Wire Line
+	6950 1100 7050 1100
+Connection ~ 7050 1100
+Wire Wire Line
+	7050 1100 7050 1000
+Wire Wire Line
+	6950 1200 7050 1200
+Connection ~ 7050 1200
+Wire Wire Line
+	7050 1200 7050 1100
+Wire Wire Line
+	6950 1300 7050 1300
+Connection ~ 7050 1300
+Wire Wire Line
+	7050 1300 7050 1200
+Wire Wire Line
+	6950 1400 7050 1400
+Connection ~ 7050 1400
+Wire Wire Line
+	7050 1400 7050 1300
+Connection ~ 7050 1500
+Wire Wire Line
+	7050 1500 7050 1400
+Wire Wire Line
+	6950 1500 7050 1500
+Wire Wire Line
+	6950 1600 7050 1600
+Connection ~ 7050 1600
+Wire Wire Line
+	7050 1600 7050 1500
+Wire Wire Line
+	6950 1700 7050 1700
+Connection ~ 7050 1700
+Wire Wire Line
+	7050 1700 7050 1600
+Wire Wire Line
+	6950 3100 7050 3100
+Connection ~ 7050 3100
+Wire Wire Line
+	7050 3100 7050 3000
+Wire Wire Line
+	6950 3000 7050 3000
+Connection ~ 7050 3000
+Wire Wire Line
+	7050 3000 7050 2900
+Wire Wire Line
+	6950 2900 7050 2900
+Connection ~ 7050 2900
+Wire Wire Line
+	7050 2900 7050 2800
+Wire Wire Line
+	6950 2800 7050 2800
+Connection ~ 7050 2800
+Wire Wire Line
+	7050 2800 7050 2700
+Wire Wire Line
+	6950 2700 7050 2700
+Connection ~ 7050 2700
+Wire Wire Line
+	7050 2700 7050 2600
+Wire Wire Line
+	6950 2600 7050 2600
+Connection ~ 7050 2600
+Wire Wire Line
+	7050 2600 7050 2500
+Wire Wire Line
+	6950 2500 7050 2500
+Connection ~ 7050 2500
+Wire Wire Line
+	7050 2500 7050 2400
+Wire Wire Line
+	6950 2400 7050 2400
+Connection ~ 7050 2400
+Wire Wire Line
+	7050 2400 7050 2300
+Wire Wire Line
+	6950 2300 7050 2300
+Connection ~ 7050 2300
+Wire Wire Line
+	7050 2300 7050 2200
+Wire Wire Line
+	6950 2200 7050 2200
+Connection ~ 7050 2200
+Wire Wire Line
+	7050 2200 7050 2100
+Wire Wire Line
+	6950 2100 7050 2100
+Connection ~ 7050 2100
+Wire Wire Line
+	7050 2100 7050 2000
+Wire Wire Line
+	6950 2000 7050 2000
+Connection ~ 7050 2000
+Wire Wire Line
+	7050 2000 7050 1900
+Wire Wire Line
+	6950 1900 7050 1900
+Connection ~ 7050 1900
+Wire Wire Line
+	7050 1900 7050 1800
+Wire Wire Line
+	6950 1800 7050 1800
+Connection ~ 7050 1800
+Wire Wire Line
+	7050 1800 7050 1700
+$Comp
+L Device:D D121
+U 1 1 651DB587
+P 6800 800
+F 0 "D121" H 6400 800 50  0000 C CNN
+F 1 "D" H 6500 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 800 50  0001 C CNN
+F 3 "~" H 6800 800 50  0001 C CNN
+	1    6800 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D122
+U 1 1 651DB58D
+P 6800 900
+F 0 "D122" H 6400 900 50  0000 C CNN
+F 1 "D" H 6500 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 900 50  0001 C CNN
+F 3 "~" H 6800 900 50  0001 C CNN
+	1    6800 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D123
+U 1 1 651DB593
+P 6800 1000
+F 0 "D123" H 6400 1000 50  0000 C CNN
+F 1 "D" H 6500 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1000 50  0001 C CNN
+F 3 "~" H 6800 1000 50  0001 C CNN
+	1    6800 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D124
+U 1 1 651DB599
+P 6800 1100
+F 0 "D124" H 6400 1100 50  0000 C CNN
+F 1 "D" H 6500 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1100 50  0001 C CNN
+F 3 "~" H 6800 1100 50  0001 C CNN
+	1    6800 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D125
+U 1 1 651DB59F
+P 6800 1200
+F 0 "D125" H 6400 1200 50  0000 C CNN
+F 1 "D" H 6500 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1200 50  0001 C CNN
+F 3 "~" H 6800 1200 50  0001 C CNN
+	1    6800 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D126
+U 1 1 651DB5A5
+P 6800 1300
+F 0 "D126" H 6400 1300 50  0000 C CNN
+F 1 "D" H 6500 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1300 50  0001 C CNN
+F 3 "~" H 6800 1300 50  0001 C CNN
+	1    6800 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D127
+U 1 1 651DB5AB
+P 6800 1400
+F 0 "D127" H 6400 1400 50  0000 C CNN
+F 1 "D" H 6500 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1400 50  0001 C CNN
+F 3 "~" H 6800 1400 50  0001 C CNN
+	1    6800 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D128
+U 1 1 651DB5B1
+P 6800 1500
+F 0 "D128" H 6400 1500 50  0000 C CNN
+F 1 "D" H 6500 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1500 50  0001 C CNN
+F 3 "~" H 6800 1500 50  0001 C CNN
+	1    6800 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D129
+U 1 1 651DB5B7
+P 6800 1600
+F 0 "D129" H 6400 1600 50  0000 C CNN
+F 1 "D" H 6500 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1600 50  0001 C CNN
+F 3 "~" H 6800 1600 50  0001 C CNN
+	1    6800 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D130
+U 1 1 651DB5BD
+P 6800 1700
+F 0 "D130" H 6400 1700 50  0000 C CNN
+F 1 "D" H 6500 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1700 50  0001 C CNN
+F 3 "~" H 6800 1700 50  0001 C CNN
+	1    6800 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D131
+U 1 1 651DB5C3
+P 6800 1800
+F 0 "D131" H 6400 1800 50  0000 C CNN
+F 1 "D" H 6500 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1800 50  0001 C CNN
+F 3 "~" H 6800 1800 50  0001 C CNN
+	1    6800 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D132
+U 1 1 651DB5C9
+P 6800 1900
+F 0 "D132" H 6400 1900 50  0000 C CNN
+F 1 "D" H 6500 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 1900 50  0001 C CNN
+F 3 "~" H 6800 1900 50  0001 C CNN
+	1    6800 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D133
+U 1 1 651DB5CF
+P 6800 2000
+F 0 "D133" H 6400 2000 50  0000 C CNN
+F 1 "D" H 6500 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2000 50  0001 C CNN
+F 3 "~" H 6800 2000 50  0001 C CNN
+	1    6800 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D134
+U 1 1 651DB5D5
+P 6800 2100
+F 0 "D134" H 6400 2100 50  0000 C CNN
+F 1 "D" H 6500 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2100 50  0001 C CNN
+F 3 "~" H 6800 2100 50  0001 C CNN
+	1    6800 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D135
+U 1 1 651DB5DB
+P 6800 2200
+F 0 "D135" H 6400 2200 50  0000 C CNN
+F 1 "D" H 6500 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2200 50  0001 C CNN
+F 3 "~" H 6800 2200 50  0001 C CNN
+	1    6800 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D136
+U 1 1 651DB5E1
+P 6800 2300
+F 0 "D136" H 6400 2300 50  0000 C CNN
+F 1 "D" H 6500 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2300 50  0001 C CNN
+F 3 "~" H 6800 2300 50  0001 C CNN
+	1    6800 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D137
+U 1 1 651DB5E7
+P 6800 2400
+F 0 "D137" H 6400 2400 50  0000 C CNN
+F 1 "D" H 6500 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2400 50  0001 C CNN
+F 3 "~" H 6800 2400 50  0001 C CNN
+	1    6800 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D138
+U 1 1 651DB5ED
+P 6800 2500
+F 0 "D138" H 6400 2500 50  0000 C CNN
+F 1 "D" H 6500 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2500 50  0001 C CNN
+F 3 "~" H 6800 2500 50  0001 C CNN
+	1    6800 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D139
+U 1 1 651DB5F3
+P 6800 2600
+F 0 "D139" H 6400 2600 50  0000 C CNN
+F 1 "D" H 6500 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2600 50  0001 C CNN
+F 3 "~" H 6800 2600 50  0001 C CNN
+	1    6800 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D140
+U 1 1 651DB5F9
+P 6800 2700
+F 0 "D140" H 6400 2700 50  0000 C CNN
+F 1 "D" H 6500 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2700 50  0001 C CNN
+F 3 "~" H 6800 2700 50  0001 C CNN
+	1    6800 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D141
+U 1 1 651DB5FF
+P 6800 2800
+F 0 "D141" H 6400 2800 50  0000 C CNN
+F 1 "D" H 6500 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2800 50  0001 C CNN
+F 3 "~" H 6800 2800 50  0001 C CNN
+	1    6800 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D142
+U 1 1 651DB605
+P 6800 2900
+F 0 "D142" H 6400 2900 50  0000 C CNN
+F 1 "D" H 6500 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 2900 50  0001 C CNN
+F 3 "~" H 6800 2900 50  0001 C CNN
+	1    6800 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D143
+U 1 1 651DB60B
+P 6800 3000
+F 0 "D143" H 6400 3000 50  0000 C CNN
+F 1 "D" H 6500 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 3000 50  0001 C CNN
+F 3 "~" H 6800 3000 50  0001 C CNN
+	1    6800 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D144
+U 1 1 651DB611
+P 6800 3100
+F 0 "D144" H 6400 3100 50  0000 C CNN
+F 1 "D" H 6500 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6800 3100 50  0001 C CNN
+F 3 "~" H 6800 3100 50  0001 C CNN
+	1    6800 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J7
+U 1 1 6520F2D1
+P 7650 1900
+F 0 "J7" H 7758 3181 50  0000 C CNN
+F 1 "GPIO" H 7758 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 7650 1900 50  0001 C CNN
+F 3 "~" H 7650 1900 50  0001 C CNN
+	1    7650 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 800  7900 800 
+Wire Wire Line
+	7850 900  7900 900 
+Wire Wire Line
+	7850 1000 7900 1000
+Wire Wire Line
+	7850 1100 7900 1100
+Wire Wire Line
+	7850 1200 7900 1200
+Wire Wire Line
+	7850 1300 7900 1300
+Wire Wire Line
+	7850 1400 7900 1400
+Wire Wire Line
+	7850 1500 7900 1500
+Wire Wire Line
+	7850 1600 7900 1600
+Wire Wire Line
+	7850 1700 7900 1700
+Wire Wire Line
+	7850 1800 7900 1800
+Wire Wire Line
+	7850 1900 7900 1900
+Wire Wire Line
+	7850 2000 7900 2000
+Wire Wire Line
+	7850 2100 7900 2100
+Wire Wire Line
+	7850 2200 7900 2200
+Wire Wire Line
+	7850 2300 7900 2300
+Wire Wire Line
+	7850 2400 7900 2400
+Wire Wire Line
+	7850 2500 7900 2500
+Wire Wire Line
+	7850 2600 7900 2600
+Wire Wire Line
+	7850 2700 7900 2700
+Wire Wire Line
+	7850 2800 7900 2800
+Wire Wire Line
+	7850 2900 7900 2900
+Wire Wire Line
+	7850 3000 7900 3000
+Wire Wire Line
+	7850 3100 7900 3100
+$Comp
+L power:GND #PWR07
+U 1 1 6520F2EF
+P 8300 3200
+F 0 "#PWR07" H 8300 2950 50  0001 C CNN
+F 1 "GND" H 8305 3027 50  0000 C CNN
+F 2 "" H 8300 3200 50  0001 C CNN
+F 3 "" H 8300 3200 50  0001 C CNN
+	1    8300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3200 8300 3100
+Wire Wire Line
+	8300 800  8200 800 
+Wire Wire Line
+	8200 900  8300 900 
+Connection ~ 8300 900 
+Wire Wire Line
+	8300 900  8300 800 
+Wire Wire Line
+	8200 1000 8300 1000
+Connection ~ 8300 1000
+Wire Wire Line
+	8300 1000 8300 900 
+Wire Wire Line
+	8200 1100 8300 1100
+Connection ~ 8300 1100
+Wire Wire Line
+	8300 1100 8300 1000
+Wire Wire Line
+	8200 1200 8300 1200
+Connection ~ 8300 1200
+Wire Wire Line
+	8300 1200 8300 1100
+Wire Wire Line
+	8200 1300 8300 1300
+Connection ~ 8300 1300
+Wire Wire Line
+	8300 1300 8300 1200
+Wire Wire Line
+	8200 1400 8300 1400
+Connection ~ 8300 1400
+Wire Wire Line
+	8300 1400 8300 1300
+Connection ~ 8300 1500
+Wire Wire Line
+	8300 1500 8300 1400
+Wire Wire Line
+	8200 1500 8300 1500
+Wire Wire Line
+	8200 1600 8300 1600
+Connection ~ 8300 1600
+Wire Wire Line
+	8300 1600 8300 1500
+Wire Wire Line
+	8200 1700 8300 1700
+Connection ~ 8300 1700
+Wire Wire Line
+	8300 1700 8300 1600
+Wire Wire Line
+	8200 3100 8300 3100
+Connection ~ 8300 3100
+Wire Wire Line
+	8300 3100 8300 3000
+Wire Wire Line
+	8200 3000 8300 3000
+Connection ~ 8300 3000
+Wire Wire Line
+	8300 3000 8300 2900
+Wire Wire Line
+	8200 2900 8300 2900
+Connection ~ 8300 2900
+Wire Wire Line
+	8300 2900 8300 2800
+Wire Wire Line
+	8200 2800 8300 2800
+Connection ~ 8300 2800
+Wire Wire Line
+	8300 2800 8300 2700
+Wire Wire Line
+	8200 2700 8300 2700
+Connection ~ 8300 2700
+Wire Wire Line
+	8300 2700 8300 2600
+Wire Wire Line
+	8200 2600 8300 2600
+Connection ~ 8300 2600
+Wire Wire Line
+	8300 2600 8300 2500
+Wire Wire Line
+	8200 2500 8300 2500
+Connection ~ 8300 2500
+Wire Wire Line
+	8300 2500 8300 2400
+Wire Wire Line
+	8200 2400 8300 2400
+Connection ~ 8300 2400
+Wire Wire Line
+	8300 2400 8300 2300
+Wire Wire Line
+	8200 2300 8300 2300
+Connection ~ 8300 2300
+Wire Wire Line
+	8300 2300 8300 2200
+Wire Wire Line
+	8200 2200 8300 2200
+Connection ~ 8300 2200
+Wire Wire Line
+	8300 2200 8300 2100
+Wire Wire Line
+	8200 2100 8300 2100
+Connection ~ 8300 2100
+Wire Wire Line
+	8300 2100 8300 2000
+Wire Wire Line
+	8200 2000 8300 2000
+Connection ~ 8300 2000
+Wire Wire Line
+	8300 2000 8300 1900
+Wire Wire Line
+	8200 1900 8300 1900
+Connection ~ 8300 1900
+Wire Wire Line
+	8300 1900 8300 1800
+Wire Wire Line
+	8200 1800 8300 1800
+Connection ~ 8300 1800
+Wire Wire Line
+	8300 1800 8300 1700
+$Comp
+L Device:D D145
+U 1 1 6520F33C
+P 8050 800
+F 0 "D145" H 7650 800 50  0000 C CNN
+F 1 "D" H 7750 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 800 50  0001 C CNN
+F 3 "~" H 8050 800 50  0001 C CNN
+	1    8050 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D146
+U 1 1 6520F342
+P 8050 900
+F 0 "D146" H 7650 900 50  0000 C CNN
+F 1 "D" H 7750 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 900 50  0001 C CNN
+F 3 "~" H 8050 900 50  0001 C CNN
+	1    8050 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D147
+U 1 1 6520F348
+P 8050 1000
+F 0 "D147" H 7650 1000 50  0000 C CNN
+F 1 "D" H 7750 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1000 50  0001 C CNN
+F 3 "~" H 8050 1000 50  0001 C CNN
+	1    8050 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D148
+U 1 1 6520F34E
+P 8050 1100
+F 0 "D148" H 7650 1100 50  0000 C CNN
+F 1 "D" H 7750 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1100 50  0001 C CNN
+F 3 "~" H 8050 1100 50  0001 C CNN
+	1    8050 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D149
+U 1 1 6520F354
+P 8050 1200
+F 0 "D149" H 7650 1200 50  0000 C CNN
+F 1 "D" H 7750 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1200 50  0001 C CNN
+F 3 "~" H 8050 1200 50  0001 C CNN
+	1    8050 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D150
+U 1 1 6520F35A
+P 8050 1300
+F 0 "D150" H 7650 1300 50  0000 C CNN
+F 1 "D" H 7750 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1300 50  0001 C CNN
+F 3 "~" H 8050 1300 50  0001 C CNN
+	1    8050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D151
+U 1 1 6520F360
+P 8050 1400
+F 0 "D151" H 7650 1400 50  0000 C CNN
+F 1 "D" H 7750 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1400 50  0001 C CNN
+F 3 "~" H 8050 1400 50  0001 C CNN
+	1    8050 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D152
+U 1 1 6520F366
+P 8050 1500
+F 0 "D152" H 7650 1500 50  0000 C CNN
+F 1 "D" H 7750 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1500 50  0001 C CNN
+F 3 "~" H 8050 1500 50  0001 C CNN
+	1    8050 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D153
+U 1 1 6520F36C
+P 8050 1600
+F 0 "D153" H 7650 1600 50  0000 C CNN
+F 1 "D" H 7750 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1600 50  0001 C CNN
+F 3 "~" H 8050 1600 50  0001 C CNN
+	1    8050 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D154
+U 1 1 6520F372
+P 8050 1700
+F 0 "D154" H 7650 1700 50  0000 C CNN
+F 1 "D" H 7750 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1700 50  0001 C CNN
+F 3 "~" H 8050 1700 50  0001 C CNN
+	1    8050 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D155
+U 1 1 6520F378
+P 8050 1800
+F 0 "D155" H 7650 1800 50  0000 C CNN
+F 1 "D" H 7750 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1800 50  0001 C CNN
+F 3 "~" H 8050 1800 50  0001 C CNN
+	1    8050 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D156
+U 1 1 6520F37E
+P 8050 1900
+F 0 "D156" H 7650 1900 50  0000 C CNN
+F 1 "D" H 7750 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 1900 50  0001 C CNN
+F 3 "~" H 8050 1900 50  0001 C CNN
+	1    8050 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D157
+U 1 1 6520F384
+P 8050 2000
+F 0 "D157" H 7650 2000 50  0000 C CNN
+F 1 "D" H 7750 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2000 50  0001 C CNN
+F 3 "~" H 8050 2000 50  0001 C CNN
+	1    8050 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D158
+U 1 1 6520F38A
+P 8050 2100
+F 0 "D158" H 7650 2100 50  0000 C CNN
+F 1 "D" H 7750 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2100 50  0001 C CNN
+F 3 "~" H 8050 2100 50  0001 C CNN
+	1    8050 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D159
+U 1 1 6520F390
+P 8050 2200
+F 0 "D159" H 7650 2200 50  0000 C CNN
+F 1 "D" H 7750 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2200 50  0001 C CNN
+F 3 "~" H 8050 2200 50  0001 C CNN
+	1    8050 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D160
+U 1 1 6520F396
+P 8050 2300
+F 0 "D160" H 7650 2300 50  0000 C CNN
+F 1 "D" H 7750 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2300 50  0001 C CNN
+F 3 "~" H 8050 2300 50  0001 C CNN
+	1    8050 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D161
+U 1 1 6520F39C
+P 8050 2400
+F 0 "D161" H 7650 2400 50  0000 C CNN
+F 1 "D" H 7750 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2400 50  0001 C CNN
+F 3 "~" H 8050 2400 50  0001 C CNN
+	1    8050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D162
+U 1 1 6520F3A2
+P 8050 2500
+F 0 "D162" H 7650 2500 50  0000 C CNN
+F 1 "D" H 7750 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2500 50  0001 C CNN
+F 3 "~" H 8050 2500 50  0001 C CNN
+	1    8050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D163
+U 1 1 6520F3A8
+P 8050 2600
+F 0 "D163" H 7650 2600 50  0000 C CNN
+F 1 "D" H 7750 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2600 50  0001 C CNN
+F 3 "~" H 8050 2600 50  0001 C CNN
+	1    8050 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D164
+U 1 1 6520F3AE
+P 8050 2700
+F 0 "D164" H 7650 2700 50  0000 C CNN
+F 1 "D" H 7750 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2700 50  0001 C CNN
+F 3 "~" H 8050 2700 50  0001 C CNN
+	1    8050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D165
+U 1 1 6520F3B4
+P 8050 2800
+F 0 "D165" H 7650 2800 50  0000 C CNN
+F 1 "D" H 7750 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2800 50  0001 C CNN
+F 3 "~" H 8050 2800 50  0001 C CNN
+	1    8050 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D166
+U 1 1 6520F3BA
+P 8050 2900
+F 0 "D166" H 7650 2900 50  0000 C CNN
+F 1 "D" H 7750 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 2900 50  0001 C CNN
+F 3 "~" H 8050 2900 50  0001 C CNN
+	1    8050 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D167
+U 1 1 6520F3C0
+P 8050 3000
+F 0 "D167" H 7650 3000 50  0000 C CNN
+F 1 "D" H 7750 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 3000 50  0001 C CNN
+F 3 "~" H 8050 3000 50  0001 C CNN
+	1    8050 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D168
+U 1 1 6520F3C6
+P 8050 3100
+F 0 "D168" H 7650 3100 50  0000 C CNN
+F 1 "D" H 7750 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8050 3100 50  0001 C CNN
+F 3 "~" H 8050 3100 50  0001 C CNN
+	1    8050 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J8
+U 1 1 6524FFEF
+P 8750 1900
+F 0 "J8" H 8858 3181 50  0000 C CNN
+F 1 "GPIO" H 8858 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 8750 1900 50  0001 C CNN
+F 3 "~" H 8750 1900 50  0001 C CNN
+	1    8750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 800  9000 800 
+Wire Wire Line
+	8950 900  9000 900 
+Wire Wire Line
+	8950 1000 9000 1000
+Wire Wire Line
+	8950 1100 9000 1100
+Wire Wire Line
+	8950 1200 9000 1200
+Wire Wire Line
+	8950 1300 9000 1300
+Wire Wire Line
+	8950 1400 9000 1400
+Wire Wire Line
+	8950 1500 9000 1500
+Wire Wire Line
+	8950 1600 9000 1600
+Wire Wire Line
+	8950 1700 9000 1700
+Wire Wire Line
+	8950 1800 9000 1800
+Wire Wire Line
+	8950 1900 9000 1900
+Wire Wire Line
+	8950 2000 9000 2000
+Wire Wire Line
+	8950 2100 9000 2100
+Wire Wire Line
+	8950 2200 9000 2200
+Wire Wire Line
+	8950 2300 9000 2300
+Wire Wire Line
+	8950 2400 9000 2400
+Wire Wire Line
+	8950 2500 9000 2500
+Wire Wire Line
+	8950 2600 9000 2600
+Wire Wire Line
+	8950 2700 9000 2700
+Wire Wire Line
+	8950 2800 9000 2800
+Wire Wire Line
+	8950 2900 9000 2900
+Wire Wire Line
+	8950 3000 9000 3000
+Wire Wire Line
+	8950 3100 9000 3100
+$Comp
+L power:GND #PWR08
+U 1 1 6525000D
+P 9400 3200
+F 0 "#PWR08" H 9400 2950 50  0001 C CNN
+F 1 "GND" H 9405 3027 50  0000 C CNN
+F 2 "" H 9400 3200 50  0001 C CNN
+F 3 "" H 9400 3200 50  0001 C CNN
+	1    9400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3200 9400 3100
+Wire Wire Line
+	9400 800  9300 800 
+Wire Wire Line
+	9300 900  9400 900 
+Connection ~ 9400 900 
+Wire Wire Line
+	9400 900  9400 800 
+Wire Wire Line
+	9300 1000 9400 1000
+Connection ~ 9400 1000
+Wire Wire Line
+	9400 1000 9400 900 
+Wire Wire Line
+	9300 1100 9400 1100
+Connection ~ 9400 1100
+Wire Wire Line
+	9400 1100 9400 1000
+Wire Wire Line
+	9300 1200 9400 1200
+Connection ~ 9400 1200
+Wire Wire Line
+	9400 1200 9400 1100
+Wire Wire Line
+	9300 1300 9400 1300
+Connection ~ 9400 1300
+Wire Wire Line
+	9400 1300 9400 1200
+Wire Wire Line
+	9300 1400 9400 1400
+Connection ~ 9400 1400
+Wire Wire Line
+	9400 1400 9400 1300
+Connection ~ 9400 1500
+Wire Wire Line
+	9400 1500 9400 1400
+Wire Wire Line
+	9300 1500 9400 1500
+Wire Wire Line
+	9300 1600 9400 1600
+Connection ~ 9400 1600
+Wire Wire Line
+	9400 1600 9400 1500
+Wire Wire Line
+	9300 1700 9400 1700
+Connection ~ 9400 1700
+Wire Wire Line
+	9400 1700 9400 1600
+Wire Wire Line
+	9300 3100 9400 3100
+Connection ~ 9400 3100
+Wire Wire Line
+	9400 3100 9400 3000
+Wire Wire Line
+	9300 3000 9400 3000
+Connection ~ 9400 3000
+Wire Wire Line
+	9400 3000 9400 2900
+Wire Wire Line
+	9300 2900 9400 2900
+Connection ~ 9400 2900
+Wire Wire Line
+	9400 2900 9400 2800
+Wire Wire Line
+	9300 2800 9400 2800
+Connection ~ 9400 2800
+Wire Wire Line
+	9400 2800 9400 2700
+Wire Wire Line
+	9300 2700 9400 2700
+Connection ~ 9400 2700
+Wire Wire Line
+	9400 2700 9400 2600
+Wire Wire Line
+	9300 2600 9400 2600
+Connection ~ 9400 2600
+Wire Wire Line
+	9400 2600 9400 2500
+Wire Wire Line
+	9300 2500 9400 2500
+Connection ~ 9400 2500
+Wire Wire Line
+	9400 2500 9400 2400
+Wire Wire Line
+	9300 2400 9400 2400
+Connection ~ 9400 2400
+Wire Wire Line
+	9400 2400 9400 2300
+Wire Wire Line
+	9300 2300 9400 2300
+Connection ~ 9400 2300
+Wire Wire Line
+	9400 2300 9400 2200
+Wire Wire Line
+	9300 2200 9400 2200
+Connection ~ 9400 2200
+Wire Wire Line
+	9400 2200 9400 2100
+Wire Wire Line
+	9300 2100 9400 2100
+Connection ~ 9400 2100
+Wire Wire Line
+	9400 2100 9400 2000
+Wire Wire Line
+	9300 2000 9400 2000
+Connection ~ 9400 2000
+Wire Wire Line
+	9400 2000 9400 1900
+Wire Wire Line
+	9300 1900 9400 1900
+Connection ~ 9400 1900
+Wire Wire Line
+	9400 1900 9400 1800
+Wire Wire Line
+	9300 1800 9400 1800
+Connection ~ 9400 1800
+Wire Wire Line
+	9400 1800 9400 1700
+$Comp
+L Device:D D169
+U 1 1 6525005A
+P 9150 800
+F 0 "D169" H 8750 800 50  0000 C CNN
+F 1 "D" H 8850 800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 800 50  0001 C CNN
+F 3 "~" H 9150 800 50  0001 C CNN
+	1    9150 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D170
+U 1 1 65250060
+P 9150 900
+F 0 "D170" H 8750 900 50  0000 C CNN
+F 1 "D" H 8850 900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 900 50  0001 C CNN
+F 3 "~" H 9150 900 50  0001 C CNN
+	1    9150 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D171
+U 1 1 65250066
+P 9150 1000
+F 0 "D171" H 8750 1000 50  0000 C CNN
+F 1 "D" H 8850 1000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1000 50  0001 C CNN
+F 3 "~" H 9150 1000 50  0001 C CNN
+	1    9150 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D172
+U 1 1 6525006C
+P 9150 1100
+F 0 "D172" H 8750 1100 50  0000 C CNN
+F 1 "D" H 8850 1100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1100 50  0001 C CNN
+F 3 "~" H 9150 1100 50  0001 C CNN
+	1    9150 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D173
+U 1 1 65250072
+P 9150 1200
+F 0 "D173" H 8750 1200 50  0000 C CNN
+F 1 "D" H 8850 1200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1200 50  0001 C CNN
+F 3 "~" H 9150 1200 50  0001 C CNN
+	1    9150 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D174
+U 1 1 65250078
+P 9150 1300
+F 0 "D174" H 8750 1300 50  0000 C CNN
+F 1 "D" H 8850 1300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1300 50  0001 C CNN
+F 3 "~" H 9150 1300 50  0001 C CNN
+	1    9150 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D175
+U 1 1 6525007E
+P 9150 1400
+F 0 "D175" H 8750 1400 50  0000 C CNN
+F 1 "D" H 8850 1400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1400 50  0001 C CNN
+F 3 "~" H 9150 1400 50  0001 C CNN
+	1    9150 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D176
+U 1 1 65250084
+P 9150 1500
+F 0 "D176" H 8750 1500 50  0000 C CNN
+F 1 "D" H 8850 1500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1500 50  0001 C CNN
+F 3 "~" H 9150 1500 50  0001 C CNN
+	1    9150 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D177
+U 1 1 6525008A
+P 9150 1600
+F 0 "D177" H 8750 1600 50  0000 C CNN
+F 1 "D" H 8850 1600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1600 50  0001 C CNN
+F 3 "~" H 9150 1600 50  0001 C CNN
+	1    9150 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D178
+U 1 1 65250090
+P 9150 1700
+F 0 "D178" H 8750 1700 50  0000 C CNN
+F 1 "D" H 8850 1700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1700 50  0001 C CNN
+F 3 "~" H 9150 1700 50  0001 C CNN
+	1    9150 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D179
+U 1 1 65250096
+P 9150 1800
+F 0 "D179" H 8750 1800 50  0000 C CNN
+F 1 "D" H 8850 1800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1800 50  0001 C CNN
+F 3 "~" H 9150 1800 50  0001 C CNN
+	1    9150 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D180
+U 1 1 6525009C
+P 9150 1900
+F 0 "D180" H 8750 1900 50  0000 C CNN
+F 1 "D" H 8850 1900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 1900 50  0001 C CNN
+F 3 "~" H 9150 1900 50  0001 C CNN
+	1    9150 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D181
+U 1 1 652500A2
+P 9150 2000
+F 0 "D181" H 8750 2000 50  0000 C CNN
+F 1 "D" H 8850 2000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2000 50  0001 C CNN
+F 3 "~" H 9150 2000 50  0001 C CNN
+	1    9150 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D182
+U 1 1 652500A8
+P 9150 2100
+F 0 "D182" H 8750 2100 50  0000 C CNN
+F 1 "D" H 8850 2100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2100 50  0001 C CNN
+F 3 "~" H 9150 2100 50  0001 C CNN
+	1    9150 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D183
+U 1 1 652500AE
+P 9150 2200
+F 0 "D183" H 8750 2200 50  0000 C CNN
+F 1 "D" H 8850 2200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2200 50  0001 C CNN
+F 3 "~" H 9150 2200 50  0001 C CNN
+	1    9150 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D184
+U 1 1 652500B4
+P 9150 2300
+F 0 "D184" H 8750 2300 50  0000 C CNN
+F 1 "D" H 8850 2300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2300 50  0001 C CNN
+F 3 "~" H 9150 2300 50  0001 C CNN
+	1    9150 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D185
+U 1 1 652500BA
+P 9150 2400
+F 0 "D185" H 8750 2400 50  0000 C CNN
+F 1 "D" H 8850 2400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2400 50  0001 C CNN
+F 3 "~" H 9150 2400 50  0001 C CNN
+	1    9150 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D186
+U 1 1 652500C0
+P 9150 2500
+F 0 "D186" H 8750 2500 50  0000 C CNN
+F 1 "D" H 8850 2500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2500 50  0001 C CNN
+F 3 "~" H 9150 2500 50  0001 C CNN
+	1    9150 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D187
+U 1 1 652500C6
+P 9150 2600
+F 0 "D187" H 8750 2600 50  0000 C CNN
+F 1 "D" H 8850 2600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2600 50  0001 C CNN
+F 3 "~" H 9150 2600 50  0001 C CNN
+	1    9150 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D188
+U 1 1 652500CC
+P 9150 2700
+F 0 "D188" H 8750 2700 50  0000 C CNN
+F 1 "D" H 8850 2700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2700 50  0001 C CNN
+F 3 "~" H 9150 2700 50  0001 C CNN
+	1    9150 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D189
+U 1 1 652500D2
+P 9150 2800
+F 0 "D189" H 8750 2800 50  0000 C CNN
+F 1 "D" H 8850 2800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2800 50  0001 C CNN
+F 3 "~" H 9150 2800 50  0001 C CNN
+	1    9150 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D190
+U 1 1 652500D8
+P 9150 2900
+F 0 "D190" H 8750 2900 50  0000 C CNN
+F 1 "D" H 8850 2900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 2900 50  0001 C CNN
+F 3 "~" H 9150 2900 50  0001 C CNN
+	1    9150 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D191
+U 1 1 652500DE
+P 9150 3000
+F 0 "D191" H 8750 3000 50  0000 C CNN
+F 1 "D" H 8850 3000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 3000 50  0001 C CNN
+F 3 "~" H 9150 3000 50  0001 C CNN
+	1    9150 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D192
+U 1 1 652500E4
+P 9150 3100
+F 0 "D192" H 8750 3100 50  0000 C CNN
+F 1 "D" H 8850 3100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9150 3100 50  0001 C CNN
+F 3 "~" H 9150 3100 50  0001 C CNN
+	1    9150 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J9
+U 1 1 652F82C8
+P 700 4800
+F 0 "J9" H 808 6081 50  0000 C CNN
+F 1 "GPIO" H 808 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 700 4800 50  0001 C CNN
+F 3 "~" H 700 4800 50  0001 C CNN
+	1    700  4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3700 950  3700
+Wire Wire Line
+	900  3800 950  3800
+Wire Wire Line
+	900  3900 950  3900
+Wire Wire Line
+	900  4000 950  4000
+Wire Wire Line
+	900  4100 950  4100
+Wire Wire Line
+	900  4200 950  4200
+Wire Wire Line
+	900  4300 950  4300
+Wire Wire Line
+	900  4400 950  4400
+Wire Wire Line
+	900  4500 950  4500
+Wire Wire Line
+	900  4600 950  4600
+Wire Wire Line
+	900  4700 950  4700
+Wire Wire Line
+	900  4800 950  4800
+Wire Wire Line
+	900  4900 950  4900
+Wire Wire Line
+	900  5000 950  5000
+Wire Wire Line
+	900  5100 950  5100
+Wire Wire Line
+	900  5200 950  5200
+Wire Wire Line
+	900  5300 950  5300
+Wire Wire Line
+	900  5400 950  5400
+Wire Wire Line
+	900  5500 950  5500
+Wire Wire Line
+	900  5600 950  5600
+Wire Wire Line
+	900  5700 950  5700
+Wire Wire Line
+	900  5800 950  5800
+Wire Wire Line
+	900  5900 950  5900
+Wire Wire Line
+	900  6000 950  6000
+$Comp
+L power:GND #PWR09
+U 1 1 652F82EA
+P 1350 6100
+F 0 "#PWR09" H 1350 5850 50  0001 C CNN
+F 1 "GND" H 1355 5927 50  0000 C CNN
+F 2 "" H 1350 6100 50  0001 C CNN
+F 3 "" H 1350 6100 50  0001 C CNN
+	1    1350 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6100 1350 6000
+Wire Wire Line
+	1350 3700 1250 3700
+Wire Wire Line
+	1250 3800 1350 3800
+Connection ~ 1350 3800
+Wire Wire Line
+	1350 3800 1350 3700
+Wire Wire Line
+	1250 3900 1350 3900
+Connection ~ 1350 3900
+Wire Wire Line
+	1350 3900 1350 3800
+Wire Wire Line
+	1250 4000 1350 4000
+Connection ~ 1350 4000
+Wire Wire Line
+	1350 4000 1350 3900
+Wire Wire Line
+	1250 4100 1350 4100
+Connection ~ 1350 4100
+Wire Wire Line
+	1350 4100 1350 4000
+Wire Wire Line
+	1250 4200 1350 4200
+Connection ~ 1350 4200
+Wire Wire Line
+	1350 4200 1350 4100
+Wire Wire Line
+	1250 4300 1350 4300
+Connection ~ 1350 4300
+Wire Wire Line
+	1350 4300 1350 4200
+Connection ~ 1350 4400
+Wire Wire Line
+	1350 4400 1350 4300
+Wire Wire Line
+	1250 4400 1350 4400
+Wire Wire Line
+	1250 4500 1350 4500
+Connection ~ 1350 4500
+Wire Wire Line
+	1350 4500 1350 4400
+Wire Wire Line
+	1250 4600 1350 4600
+Connection ~ 1350 4600
+Wire Wire Line
+	1350 4600 1350 4500
+Wire Wire Line
+	1250 6000 1350 6000
+Connection ~ 1350 6000
+Wire Wire Line
+	1350 6000 1350 5900
+Wire Wire Line
+	1250 5900 1350 5900
+Connection ~ 1350 5900
+Wire Wire Line
+	1350 5900 1350 5800
+Wire Wire Line
+	1250 5800 1350 5800
+Connection ~ 1350 5800
+Wire Wire Line
+	1350 5800 1350 5700
+Wire Wire Line
+	1250 5700 1350 5700
+Connection ~ 1350 5700
+Wire Wire Line
+	1350 5700 1350 5600
+Wire Wire Line
+	1250 5600 1350 5600
+Connection ~ 1350 5600
+Wire Wire Line
+	1350 5600 1350 5500
+Wire Wire Line
+	1250 5500 1350 5500
+Connection ~ 1350 5500
+Wire Wire Line
+	1350 5500 1350 5400
+Wire Wire Line
+	1250 5400 1350 5400
+Connection ~ 1350 5400
+Wire Wire Line
+	1350 5400 1350 5300
+Wire Wire Line
+	1250 5300 1350 5300
+Connection ~ 1350 5300
+Wire Wire Line
+	1350 5300 1350 5200
+Wire Wire Line
+	1250 5200 1350 5200
+Connection ~ 1350 5200
+Wire Wire Line
+	1350 5200 1350 5100
+Wire Wire Line
+	1250 5100 1350 5100
+Connection ~ 1350 5100
+Wire Wire Line
+	1350 5100 1350 5000
+Wire Wire Line
+	1250 5000 1350 5000
+Connection ~ 1350 5000
+Wire Wire Line
+	1350 5000 1350 4900
+Wire Wire Line
+	1250 4900 1350 4900
+Connection ~ 1350 4900
+Wire Wire Line
+	1350 4900 1350 4800
+Wire Wire Line
+	1250 4800 1350 4800
+Connection ~ 1350 4800
+Wire Wire Line
+	1350 4800 1350 4700
+Wire Wire Line
+	1250 4700 1350 4700
+Connection ~ 1350 4700
+Wire Wire Line
+	1350 4700 1350 4600
+$Comp
+L Device:D D193
+U 1 1 652F833B
+P 1100 3700
+F 0 "D193" H 700 3700 50  0000 C CNN
+F 1 "D" H 800 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 3700 50  0001 C CNN
+F 3 "~" H 1100 3700 50  0001 C CNN
+	1    1100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D194
+U 1 1 652F8345
+P 1100 3800
+F 0 "D194" H 700 3800 50  0000 C CNN
+F 1 "D" H 800 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 3800 50  0001 C CNN
+F 3 "~" H 1100 3800 50  0001 C CNN
+	1    1100 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D195
+U 1 1 652F834F
+P 1100 3900
+F 0 "D195" H 700 3900 50  0000 C CNN
+F 1 "D" H 800 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 3900 50  0001 C CNN
+F 3 "~" H 1100 3900 50  0001 C CNN
+	1    1100 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D196
+U 1 1 652F8359
+P 1100 4000
+F 0 "D196" H 700 4000 50  0000 C CNN
+F 1 "D" H 800 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4000 50  0001 C CNN
+F 3 "~" H 1100 4000 50  0001 C CNN
+	1    1100 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D197
+U 1 1 652F8363
+P 1100 4100
+F 0 "D197" H 700 4100 50  0000 C CNN
+F 1 "D" H 800 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4100 50  0001 C CNN
+F 3 "~" H 1100 4100 50  0001 C CNN
+	1    1100 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D198
+U 1 1 652F836D
+P 1100 4200
+F 0 "D198" H 700 4200 50  0000 C CNN
+F 1 "D" H 800 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4200 50  0001 C CNN
+F 3 "~" H 1100 4200 50  0001 C CNN
+	1    1100 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D199
+U 1 1 652F8377
+P 1100 4300
+F 0 "D199" H 700 4300 50  0000 C CNN
+F 1 "D" H 800 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4300 50  0001 C CNN
+F 3 "~" H 1100 4300 50  0001 C CNN
+	1    1100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D200
+U 1 1 652F8381
+P 1100 4400
+F 0 "D200" H 700 4400 50  0000 C CNN
+F 1 "D" H 800 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4400 50  0001 C CNN
+F 3 "~" H 1100 4400 50  0001 C CNN
+	1    1100 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D201
+U 1 1 652F838B
+P 1100 4500
+F 0 "D201" H 700 4500 50  0000 C CNN
+F 1 "D" H 800 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4500 50  0001 C CNN
+F 3 "~" H 1100 4500 50  0001 C CNN
+	1    1100 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D202
+U 1 1 652F8395
+P 1100 4600
+F 0 "D202" H 700 4600 50  0000 C CNN
+F 1 "D" H 800 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4600 50  0001 C CNN
+F 3 "~" H 1100 4600 50  0001 C CNN
+	1    1100 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D203
+U 1 1 652F839F
+P 1100 4700
+F 0 "D203" H 700 4700 50  0000 C CNN
+F 1 "D" H 800 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4700 50  0001 C CNN
+F 3 "~" H 1100 4700 50  0001 C CNN
+	1    1100 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D204
+U 1 1 652F83A9
+P 1100 4800
+F 0 "D204" H 700 4800 50  0000 C CNN
+F 1 "D" H 800 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4800 50  0001 C CNN
+F 3 "~" H 1100 4800 50  0001 C CNN
+	1    1100 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D205
+U 1 1 652F83B3
+P 1100 4900
+F 0 "D205" H 700 4900 50  0000 C CNN
+F 1 "D" H 800 4900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 4900 50  0001 C CNN
+F 3 "~" H 1100 4900 50  0001 C CNN
+	1    1100 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D206
+U 1 1 652F83BD
+P 1100 5000
+F 0 "D206" H 700 5000 50  0000 C CNN
+F 1 "D" H 800 5000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5000 50  0001 C CNN
+F 3 "~" H 1100 5000 50  0001 C CNN
+	1    1100 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D207
+U 1 1 652F83C7
+P 1100 5100
+F 0 "D207" H 700 5100 50  0000 C CNN
+F 1 "D" H 800 5100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5100 50  0001 C CNN
+F 3 "~" H 1100 5100 50  0001 C CNN
+	1    1100 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D208
+U 1 1 652F83D1
+P 1100 5200
+F 0 "D208" H 700 5200 50  0000 C CNN
+F 1 "D" H 800 5200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5200 50  0001 C CNN
+F 3 "~" H 1100 5200 50  0001 C CNN
+	1    1100 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D209
+U 1 1 652F83DB
+P 1100 5300
+F 0 "D209" H 700 5300 50  0000 C CNN
+F 1 "D" H 800 5300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5300 50  0001 C CNN
+F 3 "~" H 1100 5300 50  0001 C CNN
+	1    1100 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D210
+U 1 1 652F83E5
+P 1100 5400
+F 0 "D210" H 700 5400 50  0000 C CNN
+F 1 "D" H 800 5400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5400 50  0001 C CNN
+F 3 "~" H 1100 5400 50  0001 C CNN
+	1    1100 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D211
+U 1 1 652F83EF
+P 1100 5500
+F 0 "D211" H 700 5500 50  0000 C CNN
+F 1 "D" H 800 5500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5500 50  0001 C CNN
+F 3 "~" H 1100 5500 50  0001 C CNN
+	1    1100 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D212
+U 1 1 652F83F9
+P 1100 5600
+F 0 "D212" H 700 5600 50  0000 C CNN
+F 1 "D" H 800 5600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5600 50  0001 C CNN
+F 3 "~" H 1100 5600 50  0001 C CNN
+	1    1100 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D213
+U 1 1 652F8403
+P 1100 5700
+F 0 "D213" H 700 5700 50  0000 C CNN
+F 1 "D" H 800 5700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5700 50  0001 C CNN
+F 3 "~" H 1100 5700 50  0001 C CNN
+	1    1100 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D214
+U 1 1 652F840D
+P 1100 5800
+F 0 "D214" H 700 5800 50  0000 C CNN
+F 1 "D" H 800 5800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5800 50  0001 C CNN
+F 3 "~" H 1100 5800 50  0001 C CNN
+	1    1100 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D215
+U 1 1 652F8417
+P 1100 5900
+F 0 "D215" H 700 5900 50  0000 C CNN
+F 1 "D" H 800 5900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 5900 50  0001 C CNN
+F 3 "~" H 1100 5900 50  0001 C CNN
+	1    1100 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D216
+U 1 1 652F8421
+P 1100 6000
+F 0 "D216" H 700 6000 50  0000 C CNN
+F 1 "D" H 800 6000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 1100 6000 50  0001 C CNN
+F 3 "~" H 1100 6000 50  0001 C CNN
+	1    1100 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J10
+U 1 1 652F842B
+P 1850 4800
+F 0 "J10" H 1958 6081 50  0000 C CNN
+F 1 "GPIO" H 1958 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 1850 4800 50  0001 C CNN
+F 3 "~" H 1850 4800 50  0001 C CNN
+	1    1850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3700 2100 3700
+Wire Wire Line
+	2050 3800 2100 3800
+Wire Wire Line
+	2050 3900 2100 3900
+Wire Wire Line
+	2050 4000 2100 4000
+Wire Wire Line
+	2050 4100 2100 4100
+Wire Wire Line
+	2050 4200 2100 4200
+Wire Wire Line
+	2050 4300 2100 4300
+Wire Wire Line
+	2050 4400 2100 4400
+Wire Wire Line
+	2050 4500 2100 4500
+Wire Wire Line
+	2050 4600 2100 4600
+Wire Wire Line
+	2050 4700 2100 4700
+Wire Wire Line
+	2050 4800 2100 4800
+Wire Wire Line
+	2050 4900 2100 4900
+Wire Wire Line
+	2050 5000 2100 5000
+Wire Wire Line
+	2050 5100 2100 5100
+Wire Wire Line
+	2050 5200 2100 5200
+Wire Wire Line
+	2050 5300 2100 5300
+Wire Wire Line
+	2050 5400 2100 5400
+Wire Wire Line
+	2050 5500 2100 5500
+Wire Wire Line
+	2050 5600 2100 5600
+Wire Wire Line
+	2050 5700 2100 5700
+Wire Wire Line
+	2050 5800 2100 5800
+Wire Wire Line
+	2050 5900 2100 5900
+Wire Wire Line
+	2050 6000 2100 6000
+$Comp
+L power:GND #PWR010
+U 1 1 652F844D
+P 2500 6100
+F 0 "#PWR010" H 2500 5850 50  0001 C CNN
+F 1 "GND" H 2505 5927 50  0000 C CNN
+F 2 "" H 2500 6100 50  0001 C CNN
+F 3 "" H 2500 6100 50  0001 C CNN
+	1    2500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6100 2500 6000
+Wire Wire Line
+	2500 3700 2400 3700
+Wire Wire Line
+	2400 3800 2500 3800
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 2500 3700
+Wire Wire Line
+	2400 3900 2500 3900
+Connection ~ 2500 3900
+Wire Wire Line
+	2500 3900 2500 3800
+Wire Wire Line
+	2400 4000 2500 4000
+Connection ~ 2500 4000
+Wire Wire Line
+	2500 4000 2500 3900
+Wire Wire Line
+	2400 4100 2500 4100
+Connection ~ 2500 4100
+Wire Wire Line
+	2500 4100 2500 4000
+Wire Wire Line
+	2400 4200 2500 4200
+Connection ~ 2500 4200
+Wire Wire Line
+	2500 4200 2500 4100
+Wire Wire Line
+	2400 4300 2500 4300
+Connection ~ 2500 4300
+Wire Wire Line
+	2500 4300 2500 4200
+Connection ~ 2500 4400
+Wire Wire Line
+	2500 4400 2500 4300
+Wire Wire Line
+	2400 4400 2500 4400
+Wire Wire Line
+	2400 4500 2500 4500
+Connection ~ 2500 4500
+Wire Wire Line
+	2500 4500 2500 4400
+Wire Wire Line
+	2400 4600 2500 4600
+Connection ~ 2500 4600
+Wire Wire Line
+	2500 4600 2500 4500
+Wire Wire Line
+	2400 6000 2500 6000
+Connection ~ 2500 6000
+Wire Wire Line
+	2500 6000 2500 5900
+Wire Wire Line
+	2400 5900 2500 5900
+Connection ~ 2500 5900
+Wire Wire Line
+	2500 5900 2500 5800
+Wire Wire Line
+	2400 5800 2500 5800
+Connection ~ 2500 5800
+Wire Wire Line
+	2500 5800 2500 5700
+Wire Wire Line
+	2400 5700 2500 5700
+Connection ~ 2500 5700
+Wire Wire Line
+	2500 5700 2500 5600
+Wire Wire Line
+	2400 5600 2500 5600
+Connection ~ 2500 5600
+Wire Wire Line
+	2500 5600 2500 5500
+Wire Wire Line
+	2400 5500 2500 5500
+Connection ~ 2500 5500
+Wire Wire Line
+	2500 5500 2500 5400
+Wire Wire Line
+	2400 5400 2500 5400
+Connection ~ 2500 5400
+Wire Wire Line
+	2500 5400 2500 5300
+Wire Wire Line
+	2400 5300 2500 5300
+Connection ~ 2500 5300
+Wire Wire Line
+	2500 5300 2500 5200
+Wire Wire Line
+	2400 5200 2500 5200
+Connection ~ 2500 5200
+Wire Wire Line
+	2500 5200 2500 5100
+Wire Wire Line
+	2400 5100 2500 5100
+Connection ~ 2500 5100
+Wire Wire Line
+	2500 5100 2500 5000
+Wire Wire Line
+	2400 5000 2500 5000
+Connection ~ 2500 5000
+Wire Wire Line
+	2500 5000 2500 4900
+Wire Wire Line
+	2400 4900 2500 4900
+Connection ~ 2500 4900
+Wire Wire Line
+	2500 4900 2500 4800
+Wire Wire Line
+	2400 4800 2500 4800
+Connection ~ 2500 4800
+Wire Wire Line
+	2500 4800 2500 4700
+Wire Wire Line
+	2400 4700 2500 4700
+Connection ~ 2500 4700
+Wire Wire Line
+	2500 4700 2500 4600
+$Comp
+L Device:D D217
+U 1 1 652F849E
+P 2250 3700
+F 0 "D217" H 1850 3700 50  0000 C CNN
+F 1 "D" H 1950 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 3700 50  0001 C CNN
+F 3 "~" H 2250 3700 50  0001 C CNN
+	1    2250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D218
+U 1 1 652F84A8
+P 2250 3800
+F 0 "D218" H 1850 3800 50  0000 C CNN
+F 1 "D" H 1950 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 3800 50  0001 C CNN
+F 3 "~" H 2250 3800 50  0001 C CNN
+	1    2250 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D219
+U 1 1 652F84B2
+P 2250 3900
+F 0 "D219" H 1850 3900 50  0000 C CNN
+F 1 "D" H 1950 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 3900 50  0001 C CNN
+F 3 "~" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D220
+U 1 1 652F84BC
+P 2250 4000
+F 0 "D220" H 1850 4000 50  0000 C CNN
+F 1 "D" H 1950 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4000 50  0001 C CNN
+F 3 "~" H 2250 4000 50  0001 C CNN
+	1    2250 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D221
+U 1 1 652F84C6
+P 2250 4100
+F 0 "D221" H 1850 4100 50  0000 C CNN
+F 1 "D" H 1950 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4100 50  0001 C CNN
+F 3 "~" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D222
+U 1 1 652F84D0
+P 2250 4200
+F 0 "D222" H 1850 4200 50  0000 C CNN
+F 1 "D" H 1950 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4200 50  0001 C CNN
+F 3 "~" H 2250 4200 50  0001 C CNN
+	1    2250 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D223
+U 1 1 652F84DA
+P 2250 4300
+F 0 "D223" H 1850 4300 50  0000 C CNN
+F 1 "D" H 1950 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4300 50  0001 C CNN
+F 3 "~" H 2250 4300 50  0001 C CNN
+	1    2250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D224
+U 1 1 652F84E4
+P 2250 4400
+F 0 "D224" H 1850 4400 50  0000 C CNN
+F 1 "D" H 1950 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4400 50  0001 C CNN
+F 3 "~" H 2250 4400 50  0001 C CNN
+	1    2250 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D225
+U 1 1 652F84EE
+P 2250 4500
+F 0 "D225" H 1850 4500 50  0000 C CNN
+F 1 "D" H 1950 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4500 50  0001 C CNN
+F 3 "~" H 2250 4500 50  0001 C CNN
+	1    2250 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D226
+U 1 1 652F84F8
+P 2250 4600
+F 0 "D226" H 1850 4600 50  0000 C CNN
+F 1 "D" H 1950 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4600 50  0001 C CNN
+F 3 "~" H 2250 4600 50  0001 C CNN
+	1    2250 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D227
+U 1 1 652F8502
+P 2250 4700
+F 0 "D227" H 1850 4700 50  0000 C CNN
+F 1 "D" H 1950 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4700 50  0001 C CNN
+F 3 "~" H 2250 4700 50  0001 C CNN
+	1    2250 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D228
+U 1 1 652F850C
+P 2250 4800
+F 0 "D228" H 1850 4800 50  0000 C CNN
+F 1 "D" H 1950 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4800 50  0001 C CNN
+F 3 "~" H 2250 4800 50  0001 C CNN
+	1    2250 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D229
+U 1 1 652F8516
+P 2250 4900
+F 0 "D229" H 1850 4900 50  0000 C CNN
+F 1 "D" H 1950 4900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 4900 50  0001 C CNN
+F 3 "~" H 2250 4900 50  0001 C CNN
+	1    2250 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D230
+U 1 1 652F8520
+P 2250 5000
+F 0 "D230" H 1850 5000 50  0000 C CNN
+F 1 "D" H 1950 5000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5000 50  0001 C CNN
+F 3 "~" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D231
+U 1 1 652F852A
+P 2250 5100
+F 0 "D231" H 1850 5100 50  0000 C CNN
+F 1 "D" H 1950 5100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5100 50  0001 C CNN
+F 3 "~" H 2250 5100 50  0001 C CNN
+	1    2250 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D232
+U 1 1 652F8534
+P 2250 5200
+F 0 "D232" H 1850 5200 50  0000 C CNN
+F 1 "D" H 1950 5200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5200 50  0001 C CNN
+F 3 "~" H 2250 5200 50  0001 C CNN
+	1    2250 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D233
+U 1 1 652F853E
+P 2250 5300
+F 0 "D233" H 1850 5300 50  0000 C CNN
+F 1 "D" H 1950 5300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5300 50  0001 C CNN
+F 3 "~" H 2250 5300 50  0001 C CNN
+	1    2250 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D234
+U 1 1 652F8548
+P 2250 5400
+F 0 "D234" H 1850 5400 50  0000 C CNN
+F 1 "D" H 1950 5400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5400 50  0001 C CNN
+F 3 "~" H 2250 5400 50  0001 C CNN
+	1    2250 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D235
+U 1 1 652F8552
+P 2250 5500
+F 0 "D235" H 1850 5500 50  0000 C CNN
+F 1 "D" H 1950 5500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5500 50  0001 C CNN
+F 3 "~" H 2250 5500 50  0001 C CNN
+	1    2250 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D236
+U 1 1 652F855C
+P 2250 5600
+F 0 "D236" H 1850 5600 50  0000 C CNN
+F 1 "D" H 1950 5600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5600 50  0001 C CNN
+F 3 "~" H 2250 5600 50  0001 C CNN
+	1    2250 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D237
+U 1 1 652F8566
+P 2250 5700
+F 0 "D237" H 1850 5700 50  0000 C CNN
+F 1 "D" H 1950 5700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5700 50  0001 C CNN
+F 3 "~" H 2250 5700 50  0001 C CNN
+	1    2250 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D238
+U 1 1 652F8570
+P 2250 5800
+F 0 "D238" H 1850 5800 50  0000 C CNN
+F 1 "D" H 1950 5800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5800 50  0001 C CNN
+F 3 "~" H 2250 5800 50  0001 C CNN
+	1    2250 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D239
+U 1 1 652F857A
+P 2250 5900
+F 0 "D239" H 1850 5900 50  0000 C CNN
+F 1 "D" H 1950 5900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 5900 50  0001 C CNN
+F 3 "~" H 2250 5900 50  0001 C CNN
+	1    2250 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D240
+U 1 1 652F8584
+P 2250 6000
+F 0 "D240" H 1850 6000 50  0000 C CNN
+F 1 "D" H 1950 6000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 2250 6000 50  0001 C CNN
+F 3 "~" H 2250 6000 50  0001 C CNN
+	1    2250 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J11
+U 1 1 652F858E
+P 3000 4800
+F 0 "J11" H 3108 6081 50  0000 C CNN
+F 1 "GPIO" H 3108 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 3000 4800 50  0001 C CNN
+F 3 "~" H 3000 4800 50  0001 C CNN
+	1    3000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3700 3250 3700
+Wire Wire Line
+	3200 3800 3250 3800
+Wire Wire Line
+	3200 3900 3250 3900
+Wire Wire Line
+	3200 4000 3250 4000
+Wire Wire Line
+	3200 4100 3250 4100
+Wire Wire Line
+	3200 4200 3250 4200
+Wire Wire Line
+	3200 4300 3250 4300
+Wire Wire Line
+	3200 4400 3250 4400
+Wire Wire Line
+	3200 4500 3250 4500
+Wire Wire Line
+	3200 4600 3250 4600
+Wire Wire Line
+	3200 4700 3250 4700
+Wire Wire Line
+	3200 4800 3250 4800
+Wire Wire Line
+	3200 4900 3250 4900
+Wire Wire Line
+	3200 5000 3250 5000
+Wire Wire Line
+	3200 5100 3250 5100
+Wire Wire Line
+	3200 5200 3250 5200
+Wire Wire Line
+	3200 5300 3250 5300
+Wire Wire Line
+	3200 5400 3250 5400
+Wire Wire Line
+	3200 5500 3250 5500
+Wire Wire Line
+	3200 5600 3250 5600
+Wire Wire Line
+	3200 5700 3250 5700
+Wire Wire Line
+	3200 5800 3250 5800
+Wire Wire Line
+	3200 5900 3250 5900
+Wire Wire Line
+	3200 6000 3250 6000
+$Comp
+L power:GND #PWR011
+U 1 1 652F85B0
+P 3650 6100
+F 0 "#PWR011" H 3650 5850 50  0001 C CNN
+F 1 "GND" H 3655 5927 50  0000 C CNN
+F 2 "" H 3650 6100 50  0001 C CNN
+F 3 "" H 3650 6100 50  0001 C CNN
+	1    3650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6100 3650 6000
+Wire Wire Line
+	3650 3700 3550 3700
+Wire Wire Line
+	3550 3800 3650 3800
+Connection ~ 3650 3800
+Wire Wire Line
+	3650 3800 3650 3700
+Wire Wire Line
+	3550 3900 3650 3900
+Connection ~ 3650 3900
+Wire Wire Line
+	3650 3900 3650 3800
+Wire Wire Line
+	3550 4000 3650 4000
+Connection ~ 3650 4000
+Wire Wire Line
+	3650 4000 3650 3900
+Wire Wire Line
+	3550 4100 3650 4100
+Connection ~ 3650 4100
+Wire Wire Line
+	3650 4100 3650 4000
+Wire Wire Line
+	3550 4200 3650 4200
+Connection ~ 3650 4200
+Wire Wire Line
+	3650 4200 3650 4100
+Wire Wire Line
+	3550 4300 3650 4300
+Connection ~ 3650 4300
+Wire Wire Line
+	3650 4300 3650 4200
+Connection ~ 3650 4400
+Wire Wire Line
+	3650 4400 3650 4300
+Wire Wire Line
+	3550 4400 3650 4400
+Wire Wire Line
+	3550 4500 3650 4500
+Connection ~ 3650 4500
+Wire Wire Line
+	3650 4500 3650 4400
+Wire Wire Line
+	3550 4600 3650 4600
+Connection ~ 3650 4600
+Wire Wire Line
+	3650 4600 3650 4500
+Wire Wire Line
+	3550 6000 3650 6000
+Connection ~ 3650 6000
+Wire Wire Line
+	3650 6000 3650 5900
+Wire Wire Line
+	3550 5900 3650 5900
+Connection ~ 3650 5900
+Wire Wire Line
+	3650 5900 3650 5800
+Wire Wire Line
+	3550 5800 3650 5800
+Connection ~ 3650 5800
+Wire Wire Line
+	3650 5800 3650 5700
+Wire Wire Line
+	3550 5700 3650 5700
+Connection ~ 3650 5700
+Wire Wire Line
+	3650 5700 3650 5600
+Wire Wire Line
+	3550 5600 3650 5600
+Connection ~ 3650 5600
+Wire Wire Line
+	3650 5600 3650 5500
+Wire Wire Line
+	3550 5500 3650 5500
+Connection ~ 3650 5500
+Wire Wire Line
+	3650 5500 3650 5400
+Wire Wire Line
+	3550 5400 3650 5400
+Connection ~ 3650 5400
+Wire Wire Line
+	3650 5400 3650 5300
+Wire Wire Line
+	3550 5300 3650 5300
+Connection ~ 3650 5300
+Wire Wire Line
+	3650 5300 3650 5200
+Wire Wire Line
+	3550 5200 3650 5200
+Connection ~ 3650 5200
+Wire Wire Line
+	3650 5200 3650 5100
+Wire Wire Line
+	3550 5100 3650 5100
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 3650 5000
+Wire Wire Line
+	3550 5000 3650 5000
+Connection ~ 3650 5000
+Wire Wire Line
+	3650 5000 3650 4900
+Wire Wire Line
+	3550 4900 3650 4900
+Connection ~ 3650 4900
+Wire Wire Line
+	3650 4900 3650 4800
+Wire Wire Line
+	3550 4800 3650 4800
+Connection ~ 3650 4800
+Wire Wire Line
+	3650 4800 3650 4700
+Wire Wire Line
+	3550 4700 3650 4700
+Connection ~ 3650 4700
+Wire Wire Line
+	3650 4700 3650 4600
+$Comp
+L Device:D D241
+U 1 1 652F8601
+P 3400 3700
+F 0 "D241" H 3000 3700 50  0000 C CNN
+F 1 "D" H 3100 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 3700 50  0001 C CNN
+F 3 "~" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D242
+U 1 1 652F860B
+P 3400 3800
+F 0 "D242" H 3000 3800 50  0000 C CNN
+F 1 "D" H 3100 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 3800 50  0001 C CNN
+F 3 "~" H 3400 3800 50  0001 C CNN
+	1    3400 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D243
+U 1 1 652F8615
+P 3400 3900
+F 0 "D243" H 3000 3900 50  0000 C CNN
+F 1 "D" H 3100 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 3900 50  0001 C CNN
+F 3 "~" H 3400 3900 50  0001 C CNN
+	1    3400 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D244
+U 1 1 652F861F
+P 3400 4000
+F 0 "D244" H 3000 4000 50  0000 C CNN
+F 1 "D" H 3100 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4000 50  0001 C CNN
+F 3 "~" H 3400 4000 50  0001 C CNN
+	1    3400 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D245
+U 1 1 652F8629
+P 3400 4100
+F 0 "D245" H 3000 4100 50  0000 C CNN
+F 1 "D" H 3100 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4100 50  0001 C CNN
+F 3 "~" H 3400 4100 50  0001 C CNN
+	1    3400 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D246
+U 1 1 652F8633
+P 3400 4200
+F 0 "D246" H 3000 4200 50  0000 C CNN
+F 1 "D" H 3100 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4200 50  0001 C CNN
+F 3 "~" H 3400 4200 50  0001 C CNN
+	1    3400 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D247
+U 1 1 652F863D
+P 3400 4300
+F 0 "D247" H 3000 4300 50  0000 C CNN
+F 1 "D" H 3100 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4300 50  0001 C CNN
+F 3 "~" H 3400 4300 50  0001 C CNN
+	1    3400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D248
+U 1 1 652F8647
+P 3400 4400
+F 0 "D248" H 3000 4400 50  0000 C CNN
+F 1 "D" H 3100 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4400 50  0001 C CNN
+F 3 "~" H 3400 4400 50  0001 C CNN
+	1    3400 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D249
+U 1 1 652F8651
+P 3400 4500
+F 0 "D249" H 3000 4500 50  0000 C CNN
+F 1 "D" H 3100 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4500 50  0001 C CNN
+F 3 "~" H 3400 4500 50  0001 C CNN
+	1    3400 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D250
+U 1 1 652F865B
+P 3400 4600
+F 0 "D250" H 3000 4600 50  0000 C CNN
+F 1 "D" H 3100 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4600 50  0001 C CNN
+F 3 "~" H 3400 4600 50  0001 C CNN
+	1    3400 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D251
+U 1 1 652F8665
+P 3400 4700
+F 0 "D251" H 3000 4700 50  0000 C CNN
+F 1 "D" H 3100 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4700 50  0001 C CNN
+F 3 "~" H 3400 4700 50  0001 C CNN
+	1    3400 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D252
+U 1 1 652F866F
+P 3400 4800
+F 0 "D252" H 3000 4800 50  0000 C CNN
+F 1 "D" H 3100 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4800 50  0001 C CNN
+F 3 "~" H 3400 4800 50  0001 C CNN
+	1    3400 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D253
+U 1 1 652F8679
+P 3400 4900
+F 0 "D253" H 3000 4900 50  0000 C CNN
+F 1 "D" H 3100 4900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 4900 50  0001 C CNN
+F 3 "~" H 3400 4900 50  0001 C CNN
+	1    3400 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D254
+U 1 1 652F8683
+P 3400 5000
+F 0 "D254" H 3000 5000 50  0000 C CNN
+F 1 "D" H 3100 5000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5000 50  0001 C CNN
+F 3 "~" H 3400 5000 50  0001 C CNN
+	1    3400 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D255
+U 1 1 652F868D
+P 3400 5100
+F 0 "D255" H 3000 5100 50  0000 C CNN
+F 1 "D" H 3100 5100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5100 50  0001 C CNN
+F 3 "~" H 3400 5100 50  0001 C CNN
+	1    3400 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D256
+U 1 1 652F8697
+P 3400 5200
+F 0 "D256" H 3000 5200 50  0000 C CNN
+F 1 "D" H 3100 5200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5200 50  0001 C CNN
+F 3 "~" H 3400 5200 50  0001 C CNN
+	1    3400 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D257
+U 1 1 652F86A1
+P 3400 5300
+F 0 "D257" H 3000 5300 50  0000 C CNN
+F 1 "D" H 3100 5300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5300 50  0001 C CNN
+F 3 "~" H 3400 5300 50  0001 C CNN
+	1    3400 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D258
+U 1 1 652F86AB
+P 3400 5400
+F 0 "D258" H 3000 5400 50  0000 C CNN
+F 1 "D" H 3100 5400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5400 50  0001 C CNN
+F 3 "~" H 3400 5400 50  0001 C CNN
+	1    3400 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D259
+U 1 1 652F86B5
+P 3400 5500
+F 0 "D259" H 3000 5500 50  0000 C CNN
+F 1 "D" H 3100 5500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5500 50  0001 C CNN
+F 3 "~" H 3400 5500 50  0001 C CNN
+	1    3400 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D260
+U 1 1 652F86BF
+P 3400 5600
+F 0 "D260" H 3000 5600 50  0000 C CNN
+F 1 "D" H 3100 5600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5600 50  0001 C CNN
+F 3 "~" H 3400 5600 50  0001 C CNN
+	1    3400 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D261
+U 1 1 652F86C9
+P 3400 5700
+F 0 "D261" H 3000 5700 50  0000 C CNN
+F 1 "D" H 3100 5700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5700 50  0001 C CNN
+F 3 "~" H 3400 5700 50  0001 C CNN
+	1    3400 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D262
+U 1 1 652F86D3
+P 3400 5800
+F 0 "D262" H 3000 5800 50  0000 C CNN
+F 1 "D" H 3100 5800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5800 50  0001 C CNN
+F 3 "~" H 3400 5800 50  0001 C CNN
+	1    3400 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D263
+U 1 1 652F86DD
+P 3400 5900
+F 0 "D263" H 3000 5900 50  0000 C CNN
+F 1 "D" H 3100 5900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 5900 50  0001 C CNN
+F 3 "~" H 3400 5900 50  0001 C CNN
+	1    3400 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D264
+U 1 1 652F86E7
+P 3400 6000
+F 0 "D264" H 3000 6000 50  0000 C CNN
+F 1 "D" H 3100 6000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 3400 6000 50  0001 C CNN
+F 3 "~" H 3400 6000 50  0001 C CNN
+	1    3400 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J12
+U 1 1 652F86F1
+P 4200 4800
+F 0 "J12" H 4308 6081 50  0000 C CNN
+F 1 "GPIO" H 4308 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 4200 4800 50  0001 C CNN
+F 3 "~" H 4200 4800 50  0001 C CNN
+	1    4200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3700 4450 3700
+Wire Wire Line
+	4400 3800 4450 3800
+Wire Wire Line
+	4400 3900 4450 3900
+Wire Wire Line
+	4400 4000 4450 4000
+Wire Wire Line
+	4400 4100 4450 4100
+Wire Wire Line
+	4400 4200 4450 4200
+Wire Wire Line
+	4400 4300 4450 4300
+Wire Wire Line
+	4400 4400 4450 4400
+Wire Wire Line
+	4400 4500 4450 4500
+Wire Wire Line
+	4400 4600 4450 4600
+Wire Wire Line
+	4400 4700 4450 4700
+Wire Wire Line
+	4400 4800 4450 4800
+Wire Wire Line
+	4400 4900 4450 4900
+Wire Wire Line
+	4400 5000 4450 5000
+Wire Wire Line
+	4400 5100 4450 5100
+Wire Wire Line
+	4400 5200 4450 5200
+Wire Wire Line
+	4400 5300 4450 5300
+Wire Wire Line
+	4400 5400 4450 5400
+Wire Wire Line
+	4400 5500 4450 5500
+Wire Wire Line
+	4400 5600 4450 5600
+Wire Wire Line
+	4400 5700 4450 5700
+Wire Wire Line
+	4400 5800 4450 5800
+Wire Wire Line
+	4400 5900 4450 5900
+Wire Wire Line
+	4400 6000 4450 6000
+$Comp
+L power:GND #PWR012
+U 1 1 652F8713
+P 4850 6100
+F 0 "#PWR012" H 4850 5850 50  0001 C CNN
+F 1 "GND" H 4855 5927 50  0000 C CNN
+F 2 "" H 4850 6100 50  0001 C CNN
+F 3 "" H 4850 6100 50  0001 C CNN
+	1    4850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6100 4850 6000
+Wire Wire Line
+	4850 3700 4750 3700
+Wire Wire Line
+	4750 3800 4850 3800
+Connection ~ 4850 3800
+Wire Wire Line
+	4850 3800 4850 3700
+Wire Wire Line
+	4750 3900 4850 3900
+Connection ~ 4850 3900
+Wire Wire Line
+	4850 3900 4850 3800
+Wire Wire Line
+	4750 4000 4850 4000
+Connection ~ 4850 4000
+Wire Wire Line
+	4850 4000 4850 3900
+Wire Wire Line
+	4750 4100 4850 4100
+Connection ~ 4850 4100
+Wire Wire Line
+	4850 4100 4850 4000
+Wire Wire Line
+	4750 4200 4850 4200
+Connection ~ 4850 4200
+Wire Wire Line
+	4850 4200 4850 4100
+Wire Wire Line
+	4750 4300 4850 4300
+Connection ~ 4850 4300
+Wire Wire Line
+	4850 4300 4850 4200
+Connection ~ 4850 4400
+Wire Wire Line
+	4850 4400 4850 4300
+Wire Wire Line
+	4750 4400 4850 4400
+Wire Wire Line
+	4750 4500 4850 4500
+Connection ~ 4850 4500
+Wire Wire Line
+	4850 4500 4850 4400
+Wire Wire Line
+	4750 4600 4850 4600
+Connection ~ 4850 4600
+Wire Wire Line
+	4850 4600 4850 4500
+Wire Wire Line
+	4750 6000 4850 6000
+Connection ~ 4850 6000
+Wire Wire Line
+	4850 6000 4850 5900
+Wire Wire Line
+	4750 5900 4850 5900
+Connection ~ 4850 5900
+Wire Wire Line
+	4850 5900 4850 5800
+Wire Wire Line
+	4750 5800 4850 5800
+Connection ~ 4850 5800
+Wire Wire Line
+	4850 5800 4850 5700
+Wire Wire Line
+	4750 5700 4850 5700
+Connection ~ 4850 5700
+Wire Wire Line
+	4850 5700 4850 5600
+Wire Wire Line
+	4750 5600 4850 5600
+Connection ~ 4850 5600
+Wire Wire Line
+	4850 5600 4850 5500
+Wire Wire Line
+	4750 5500 4850 5500
+Connection ~ 4850 5500
+Wire Wire Line
+	4850 5500 4850 5400
+Wire Wire Line
+	4750 5400 4850 5400
+Connection ~ 4850 5400
+Wire Wire Line
+	4850 5400 4850 5300
+Wire Wire Line
+	4750 5300 4850 5300
+Connection ~ 4850 5300
+Wire Wire Line
+	4850 5300 4850 5200
+Wire Wire Line
+	4750 5200 4850 5200
+Connection ~ 4850 5200
+Wire Wire Line
+	4850 5200 4850 5100
+Wire Wire Line
+	4750 5100 4850 5100
+Connection ~ 4850 5100
+Wire Wire Line
+	4850 5100 4850 5000
+Wire Wire Line
+	4750 5000 4850 5000
+Connection ~ 4850 5000
+Wire Wire Line
+	4850 5000 4850 4900
+Wire Wire Line
+	4750 4900 4850 4900
+Connection ~ 4850 4900
+Wire Wire Line
+	4850 4900 4850 4800
+Wire Wire Line
+	4750 4800 4850 4800
+Connection ~ 4850 4800
+Wire Wire Line
+	4850 4800 4850 4700
+Wire Wire Line
+	4750 4700 4850 4700
+Connection ~ 4850 4700
+Wire Wire Line
+	4850 4700 4850 4600
+$Comp
+L Device:D D265
+U 1 1 652F8764
+P 4600 3700
+F 0 "D265" H 4200 3700 50  0000 C CNN
+F 1 "D" H 4300 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 3700 50  0001 C CNN
+F 3 "~" H 4600 3700 50  0001 C CNN
+	1    4600 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D266
+U 1 1 652F876E
+P 4600 3800
+F 0 "D266" H 4200 3800 50  0000 C CNN
+F 1 "D" H 4300 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 3800 50  0001 C CNN
+F 3 "~" H 4600 3800 50  0001 C CNN
+	1    4600 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D267
+U 1 1 652F8778
+P 4600 3900
+F 0 "D267" H 4200 3900 50  0000 C CNN
+F 1 "D" H 4300 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 3900 50  0001 C CNN
+F 3 "~" H 4600 3900 50  0001 C CNN
+	1    4600 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D268
+U 1 1 652F8782
+P 4600 4000
+F 0 "D268" H 4200 4000 50  0000 C CNN
+F 1 "D" H 4300 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4000 50  0001 C CNN
+F 3 "~" H 4600 4000 50  0001 C CNN
+	1    4600 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D269
+U 1 1 652F878C
+P 4600 4100
+F 0 "D269" H 4200 4100 50  0000 C CNN
+F 1 "D" H 4300 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4100 50  0001 C CNN
+F 3 "~" H 4600 4100 50  0001 C CNN
+	1    4600 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D270
+U 1 1 652F8796
+P 4600 4200
+F 0 "D270" H 4200 4200 50  0000 C CNN
+F 1 "D" H 4300 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4200 50  0001 C CNN
+F 3 "~" H 4600 4200 50  0001 C CNN
+	1    4600 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D271
+U 1 1 652F87A0
+P 4600 4300
+F 0 "D271" H 4200 4300 50  0000 C CNN
+F 1 "D" H 4300 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4300 50  0001 C CNN
+F 3 "~" H 4600 4300 50  0001 C CNN
+	1    4600 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D272
+U 1 1 652F87AA
+P 4600 4400
+F 0 "D272" H 4200 4400 50  0000 C CNN
+F 1 "D" H 4300 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4400 50  0001 C CNN
+F 3 "~" H 4600 4400 50  0001 C CNN
+	1    4600 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D273
+U 1 1 652F87B4
+P 4600 4500
+F 0 "D273" H 4200 4500 50  0000 C CNN
+F 1 "D" H 4300 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4500 50  0001 C CNN
+F 3 "~" H 4600 4500 50  0001 C CNN
+	1    4600 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D274
+U 1 1 652F87BE
+P 4600 4600
+F 0 "D274" H 4200 4600 50  0000 C CNN
+F 1 "D" H 4300 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4600 50  0001 C CNN
+F 3 "~" H 4600 4600 50  0001 C CNN
+	1    4600 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D275
+U 1 1 652F87C8
+P 4600 4700
+F 0 "D275" H 4200 4700 50  0000 C CNN
+F 1 "D" H 4300 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4700 50  0001 C CNN
+F 3 "~" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D276
+U 1 1 652F87D2
+P 4600 4800
+F 0 "D276" H 4200 4800 50  0000 C CNN
+F 1 "D" H 4300 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4800 50  0001 C CNN
+F 3 "~" H 4600 4800 50  0001 C CNN
+	1    4600 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D277
+U 1 1 652F87DC
+P 4600 4900
+F 0 "D277" H 4200 4900 50  0000 C CNN
+F 1 "D" H 4300 4900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 4900 50  0001 C CNN
+F 3 "~" H 4600 4900 50  0001 C CNN
+	1    4600 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D278
+U 1 1 652F87E6
+P 4600 5000
+F 0 "D278" H 4200 5000 50  0000 C CNN
+F 1 "D" H 4300 5000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5000 50  0001 C CNN
+F 3 "~" H 4600 5000 50  0001 C CNN
+	1    4600 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D279
+U 1 1 652F87F0
+P 4600 5100
+F 0 "D279" H 4200 5100 50  0000 C CNN
+F 1 "D" H 4300 5100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5100 50  0001 C CNN
+F 3 "~" H 4600 5100 50  0001 C CNN
+	1    4600 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D280
+U 1 1 652F87FA
+P 4600 5200
+F 0 "D280" H 4200 5200 50  0000 C CNN
+F 1 "D" H 4300 5200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5200 50  0001 C CNN
+F 3 "~" H 4600 5200 50  0001 C CNN
+	1    4600 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D281
+U 1 1 652F8804
+P 4600 5300
+F 0 "D281" H 4200 5300 50  0000 C CNN
+F 1 "D" H 4300 5300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5300 50  0001 C CNN
+F 3 "~" H 4600 5300 50  0001 C CNN
+	1    4600 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D282
+U 1 1 652F880E
+P 4600 5400
+F 0 "D282" H 4200 5400 50  0000 C CNN
+F 1 "D" H 4300 5400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5400 50  0001 C CNN
+F 3 "~" H 4600 5400 50  0001 C CNN
+	1    4600 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D283
+U 1 1 652F8818
+P 4600 5500
+F 0 "D283" H 4200 5500 50  0000 C CNN
+F 1 "D" H 4300 5500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5500 50  0001 C CNN
+F 3 "~" H 4600 5500 50  0001 C CNN
+	1    4600 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D284
+U 1 1 652F8822
+P 4600 5600
+F 0 "D284" H 4200 5600 50  0000 C CNN
+F 1 "D" H 4300 5600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5600 50  0001 C CNN
+F 3 "~" H 4600 5600 50  0001 C CNN
+	1    4600 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D285
+U 1 1 652F882C
+P 4600 5700
+F 0 "D285" H 4200 5700 50  0000 C CNN
+F 1 "D" H 4300 5700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5700 50  0001 C CNN
+F 3 "~" H 4600 5700 50  0001 C CNN
+	1    4600 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D286
+U 1 1 652F8836
+P 4600 5800
+F 0 "D286" H 4200 5800 50  0000 C CNN
+F 1 "D" H 4300 5800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5800 50  0001 C CNN
+F 3 "~" H 4600 5800 50  0001 C CNN
+	1    4600 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D287
+U 1 1 652F8840
+P 4600 5900
+F 0 "D287" H 4200 5900 50  0000 C CNN
+F 1 "D" H 4300 5900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 5900 50  0001 C CNN
+F 3 "~" H 4600 5900 50  0001 C CNN
+	1    4600 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D288
+U 1 1 652F884A
+P 4600 6000
+F 0 "D288" H 4200 6000 50  0000 C CNN
+F 1 "D" H 4300 6000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 4600 6000 50  0001 C CNN
+F 3 "~" H 4600 6000 50  0001 C CNN
+	1    4600 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J13
+U 1 1 652F8854
+P 5300 4800
+F 0 "J13" H 5408 6081 50  0000 C CNN
+F 1 "GPIO" H 5408 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 5300 4800 50  0001 C CNN
+F 3 "~" H 5300 4800 50  0001 C CNN
+	1    5300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3700 5550 3700
+Wire Wire Line
+	5500 3800 5550 3800
+Wire Wire Line
+	5500 3900 5550 3900
+Wire Wire Line
+	5500 4000 5550 4000
+Wire Wire Line
+	5500 4100 5550 4100
+Wire Wire Line
+	5500 4200 5550 4200
+Wire Wire Line
+	5500 4300 5550 4300
+Wire Wire Line
+	5500 4400 5550 4400
+Wire Wire Line
+	5500 4500 5550 4500
+Wire Wire Line
+	5500 4600 5550 4600
+Wire Wire Line
+	5500 4700 5550 4700
+Wire Wire Line
+	5500 4800 5550 4800
+Wire Wire Line
+	5500 4900 5550 4900
+Wire Wire Line
+	5500 5000 5550 5000
+Wire Wire Line
+	5500 5100 5550 5100
+Wire Wire Line
+	5500 5200 5550 5200
+Wire Wire Line
+	5500 5300 5550 5300
+Wire Wire Line
+	5500 5400 5550 5400
+Wire Wire Line
+	5500 5500 5550 5500
+Wire Wire Line
+	5500 5600 5550 5600
+Wire Wire Line
+	5500 5700 5550 5700
+Wire Wire Line
+	5500 5800 5550 5800
+Wire Wire Line
+	5500 5900 5550 5900
+Wire Wire Line
+	5500 6000 5550 6000
+$Comp
+L power:GND #PWR013
+U 1 1 652F8876
+P 5950 6100
+F 0 "#PWR013" H 5950 5850 50  0001 C CNN
+F 1 "GND" H 5955 5927 50  0000 C CNN
+F 2 "" H 5950 6100 50  0001 C CNN
+F 3 "" H 5950 6100 50  0001 C CNN
+	1    5950 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 6100 5950 6000
+Wire Wire Line
+	5950 3700 5850 3700
+Wire Wire Line
+	5850 3800 5950 3800
+Connection ~ 5950 3800
+Wire Wire Line
+	5950 3800 5950 3700
+Wire Wire Line
+	5850 3900 5950 3900
+Connection ~ 5950 3900
+Wire Wire Line
+	5950 3900 5950 3800
+Wire Wire Line
+	5850 4000 5950 4000
+Connection ~ 5950 4000
+Wire Wire Line
+	5950 4000 5950 3900
+Wire Wire Line
+	5850 4100 5950 4100
+Connection ~ 5950 4100
+Wire Wire Line
+	5950 4100 5950 4000
+Wire Wire Line
+	5850 4200 5950 4200
+Connection ~ 5950 4200
+Wire Wire Line
+	5950 4200 5950 4100
+Wire Wire Line
+	5850 4300 5950 4300
+Connection ~ 5950 4300
+Wire Wire Line
+	5950 4300 5950 4200
+Connection ~ 5950 4400
+Wire Wire Line
+	5950 4400 5950 4300
+Wire Wire Line
+	5850 4400 5950 4400
+Wire Wire Line
+	5850 4500 5950 4500
+Connection ~ 5950 4500
+Wire Wire Line
+	5950 4500 5950 4400
+Wire Wire Line
+	5850 4600 5950 4600
+Connection ~ 5950 4600
+Wire Wire Line
+	5950 4600 5950 4500
+Wire Wire Line
+	5850 6000 5950 6000
+Connection ~ 5950 6000
+Wire Wire Line
+	5950 6000 5950 5900
+Wire Wire Line
+	5850 5900 5950 5900
+Connection ~ 5950 5900
+Wire Wire Line
+	5950 5900 5950 5800
+Wire Wire Line
+	5850 5800 5950 5800
+Connection ~ 5950 5800
+Wire Wire Line
+	5950 5800 5950 5700
+Wire Wire Line
+	5850 5700 5950 5700
+Connection ~ 5950 5700
+Wire Wire Line
+	5950 5700 5950 5600
+Wire Wire Line
+	5850 5600 5950 5600
+Connection ~ 5950 5600
+Wire Wire Line
+	5950 5600 5950 5500
+Wire Wire Line
+	5850 5500 5950 5500
+Connection ~ 5950 5500
+Wire Wire Line
+	5950 5500 5950 5400
+Wire Wire Line
+	5850 5400 5950 5400
+Connection ~ 5950 5400
+Wire Wire Line
+	5950 5400 5950 5300
+Wire Wire Line
+	5850 5300 5950 5300
+Connection ~ 5950 5300
+Wire Wire Line
+	5950 5300 5950 5200
+Wire Wire Line
+	5850 5200 5950 5200
+Connection ~ 5950 5200
+Wire Wire Line
+	5950 5200 5950 5100
+Wire Wire Line
+	5850 5100 5950 5100
+Connection ~ 5950 5100
+Wire Wire Line
+	5950 5100 5950 5000
+Wire Wire Line
+	5850 5000 5950 5000
+Connection ~ 5950 5000
+Wire Wire Line
+	5950 5000 5950 4900
+Wire Wire Line
+	5850 4900 5950 4900
+Connection ~ 5950 4900
+Wire Wire Line
+	5950 4900 5950 4800
+Wire Wire Line
+	5850 4800 5950 4800
+Connection ~ 5950 4800
+Wire Wire Line
+	5950 4800 5950 4700
+Wire Wire Line
+	5850 4700 5950 4700
+Connection ~ 5950 4700
+Wire Wire Line
+	5950 4700 5950 4600
+$Comp
+L Device:D D289
+U 1 1 652F88C7
+P 5700 3700
+F 0 "D289" H 5300 3700 50  0000 C CNN
+F 1 "D" H 5400 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 3700 50  0001 C CNN
+F 3 "~" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D290
+U 1 1 652F88D1
+P 5700 3800
+F 0 "D290" H 5300 3800 50  0000 C CNN
+F 1 "D" H 5400 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 3800 50  0001 C CNN
+F 3 "~" H 5700 3800 50  0001 C CNN
+	1    5700 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D291
+U 1 1 652F88DB
+P 5700 3900
+F 0 "D291" H 5300 3900 50  0000 C CNN
+F 1 "D" H 5400 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 3900 50  0001 C CNN
+F 3 "~" H 5700 3900 50  0001 C CNN
+	1    5700 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D292
+U 1 1 652F88E5
+P 5700 4000
+F 0 "D292" H 5300 4000 50  0000 C CNN
+F 1 "D" H 5400 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4000 50  0001 C CNN
+F 3 "~" H 5700 4000 50  0001 C CNN
+	1    5700 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D293
+U 1 1 652F88EF
+P 5700 4100
+F 0 "D293" H 5300 4100 50  0000 C CNN
+F 1 "D" H 5400 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4100 50  0001 C CNN
+F 3 "~" H 5700 4100 50  0001 C CNN
+	1    5700 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D294
+U 1 1 652F88F9
+P 5700 4200
+F 0 "D294" H 5300 4200 50  0000 C CNN
+F 1 "D" H 5400 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4200 50  0001 C CNN
+F 3 "~" H 5700 4200 50  0001 C CNN
+	1    5700 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D295
+U 1 1 652F8903
+P 5700 4300
+F 0 "D295" H 5300 4300 50  0000 C CNN
+F 1 "D" H 5400 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4300 50  0001 C CNN
+F 3 "~" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D296
+U 1 1 652F890D
+P 5700 4400
+F 0 "D296" H 5300 4400 50  0000 C CNN
+F 1 "D" H 5400 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4400 50  0001 C CNN
+F 3 "~" H 5700 4400 50  0001 C CNN
+	1    5700 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D297
+U 1 1 652F8917
+P 5700 4500
+F 0 "D297" H 5300 4500 50  0000 C CNN
+F 1 "D" H 5400 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4500 50  0001 C CNN
+F 3 "~" H 5700 4500 50  0001 C CNN
+	1    5700 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D298
+U 1 1 652F8921
+P 5700 4600
+F 0 "D298" H 5300 4600 50  0000 C CNN
+F 1 "D" H 5400 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4600 50  0001 C CNN
+F 3 "~" H 5700 4600 50  0001 C CNN
+	1    5700 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D299
+U 1 1 652F892B
+P 5700 4700
+F 0 "D299" H 5300 4700 50  0000 C CNN
+F 1 "D" H 5400 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4700 50  0001 C CNN
+F 3 "~" H 5700 4700 50  0001 C CNN
+	1    5700 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D300
+U 1 1 652F8935
+P 5700 4800
+F 0 "D300" H 5300 4800 50  0000 C CNN
+F 1 "D" H 5400 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4800 50  0001 C CNN
+F 3 "~" H 5700 4800 50  0001 C CNN
+	1    5700 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D301
+U 1 1 652F893F
+P 5700 4900
+F 0 "D301" H 5300 4900 50  0000 C CNN
+F 1 "D" H 5400 4900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 4900 50  0001 C CNN
+F 3 "~" H 5700 4900 50  0001 C CNN
+	1    5700 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D302
+U 1 1 652F8949
+P 5700 5000
+F 0 "D302" H 5300 5000 50  0000 C CNN
+F 1 "D" H 5400 5000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5000 50  0001 C CNN
+F 3 "~" H 5700 5000 50  0001 C CNN
+	1    5700 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D303
+U 1 1 652F8953
+P 5700 5100
+F 0 "D303" H 5300 5100 50  0000 C CNN
+F 1 "D" H 5400 5100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5100 50  0001 C CNN
+F 3 "~" H 5700 5100 50  0001 C CNN
+	1    5700 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D304
+U 1 1 652F895D
+P 5700 5200
+F 0 "D304" H 5300 5200 50  0000 C CNN
+F 1 "D" H 5400 5200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5200 50  0001 C CNN
+F 3 "~" H 5700 5200 50  0001 C CNN
+	1    5700 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D305
+U 1 1 652F8967
+P 5700 5300
+F 0 "D305" H 5300 5300 50  0000 C CNN
+F 1 "D" H 5400 5300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5300 50  0001 C CNN
+F 3 "~" H 5700 5300 50  0001 C CNN
+	1    5700 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D306
+U 1 1 652F8971
+P 5700 5400
+F 0 "D306" H 5300 5400 50  0000 C CNN
+F 1 "D" H 5400 5400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5400 50  0001 C CNN
+F 3 "~" H 5700 5400 50  0001 C CNN
+	1    5700 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D307
+U 1 1 652F897B
+P 5700 5500
+F 0 "D307" H 5300 5500 50  0000 C CNN
+F 1 "D" H 5400 5500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5500 50  0001 C CNN
+F 3 "~" H 5700 5500 50  0001 C CNN
+	1    5700 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D308
+U 1 1 652F8985
+P 5700 5600
+F 0 "D308" H 5300 5600 50  0000 C CNN
+F 1 "D" H 5400 5600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5600 50  0001 C CNN
+F 3 "~" H 5700 5600 50  0001 C CNN
+	1    5700 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D309
+U 1 1 652F898F
+P 5700 5700
+F 0 "D309" H 5300 5700 50  0000 C CNN
+F 1 "D" H 5400 5700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5700 50  0001 C CNN
+F 3 "~" H 5700 5700 50  0001 C CNN
+	1    5700 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D310
+U 1 1 652F8999
+P 5700 5800
+F 0 "D310" H 5300 5800 50  0000 C CNN
+F 1 "D" H 5400 5800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5800 50  0001 C CNN
+F 3 "~" H 5700 5800 50  0001 C CNN
+	1    5700 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D311
+U 1 1 652F89A3
+P 5700 5900
+F 0 "D311" H 5300 5900 50  0000 C CNN
+F 1 "D" H 5400 5900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 5900 50  0001 C CNN
+F 3 "~" H 5700 5900 50  0001 C CNN
+	1    5700 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D312
+U 1 1 652F89AD
+P 5700 6000
+F 0 "D312" H 5300 6000 50  0000 C CNN
+F 1 "D" H 5400 6000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 5700 6000 50  0001 C CNN
+F 3 "~" H 5700 6000 50  0001 C CNN
+	1    5700 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J14
+U 1 1 652F89B7
+P 6500 4800
+F 0 "J14" H 6608 6081 50  0000 C CNN
+F 1 "GPIO" H 6608 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 6500 4800 50  0001 C CNN
+F 3 "~" H 6500 4800 50  0001 C CNN
+	1    6500 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3700 6750 3700
+Wire Wire Line
+	6700 3800 6750 3800
+Wire Wire Line
+	6700 3900 6750 3900
+Wire Wire Line
+	6700 4000 6750 4000
+Wire Wire Line
+	6700 4100 6750 4100
+Wire Wire Line
+	6700 4200 6750 4200
+Wire Wire Line
+	6700 4300 6750 4300
+Wire Wire Line
+	6700 4400 6750 4400
+Wire Wire Line
+	6700 4500 6750 4500
+Wire Wire Line
+	6700 4600 6750 4600
+Wire Wire Line
+	6700 4700 6750 4700
+Wire Wire Line
+	6700 4800 6750 4800
+Wire Wire Line
+	6700 4900 6750 4900
+Wire Wire Line
+	6700 5000 6750 5000
+Wire Wire Line
+	6700 5100 6750 5100
+Wire Wire Line
+	6700 5200 6750 5200
+Wire Wire Line
+	6700 5300 6750 5300
+Wire Wire Line
+	6700 5400 6750 5400
+Wire Wire Line
+	6700 5500 6750 5500
+Wire Wire Line
+	6700 5600 6750 5600
+Wire Wire Line
+	6700 5700 6750 5700
+Wire Wire Line
+	6700 5800 6750 5800
+Wire Wire Line
+	6700 5900 6750 5900
+Wire Wire Line
+	6700 6000 6750 6000
+$Comp
+L power:GND #PWR014
+U 1 1 652F89D9
+P 7150 6100
+F 0 "#PWR014" H 7150 5850 50  0001 C CNN
+F 1 "GND" H 7155 5927 50  0000 C CNN
+F 2 "" H 7150 6100 50  0001 C CNN
+F 3 "" H 7150 6100 50  0001 C CNN
+	1    7150 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6100 7150 6000
+Wire Wire Line
+	7150 3700 7050 3700
+Wire Wire Line
+	7050 3800 7150 3800
+Connection ~ 7150 3800
+Wire Wire Line
+	7150 3800 7150 3700
+Wire Wire Line
+	7050 3900 7150 3900
+Connection ~ 7150 3900
+Wire Wire Line
+	7150 3900 7150 3800
+Wire Wire Line
+	7050 4000 7150 4000
+Connection ~ 7150 4000
+Wire Wire Line
+	7150 4000 7150 3900
+Wire Wire Line
+	7050 4100 7150 4100
+Connection ~ 7150 4100
+Wire Wire Line
+	7150 4100 7150 4000
+Wire Wire Line
+	7050 4200 7150 4200
+Connection ~ 7150 4200
+Wire Wire Line
+	7150 4200 7150 4100
+Wire Wire Line
+	7050 4300 7150 4300
+Connection ~ 7150 4300
+Wire Wire Line
+	7150 4300 7150 4200
+Connection ~ 7150 4400
+Wire Wire Line
+	7150 4400 7150 4300
+Wire Wire Line
+	7050 4400 7150 4400
+Wire Wire Line
+	7050 4500 7150 4500
+Connection ~ 7150 4500
+Wire Wire Line
+	7150 4500 7150 4400
+Wire Wire Line
+	7050 4600 7150 4600
+Connection ~ 7150 4600
+Wire Wire Line
+	7150 4600 7150 4500
+Wire Wire Line
+	7050 6000 7150 6000
+Connection ~ 7150 6000
+Wire Wire Line
+	7150 6000 7150 5900
+Wire Wire Line
+	7050 5900 7150 5900
+Connection ~ 7150 5900
+Wire Wire Line
+	7150 5900 7150 5800
+Wire Wire Line
+	7050 5800 7150 5800
+Connection ~ 7150 5800
+Wire Wire Line
+	7150 5800 7150 5700
+Wire Wire Line
+	7050 5700 7150 5700
+Connection ~ 7150 5700
+Wire Wire Line
+	7150 5700 7150 5600
+Wire Wire Line
+	7050 5600 7150 5600
+Connection ~ 7150 5600
+Wire Wire Line
+	7150 5600 7150 5500
+Wire Wire Line
+	7050 5500 7150 5500
+Connection ~ 7150 5500
+Wire Wire Line
+	7150 5500 7150 5400
+Wire Wire Line
+	7050 5400 7150 5400
+Connection ~ 7150 5400
+Wire Wire Line
+	7150 5400 7150 5300
+Wire Wire Line
+	7050 5300 7150 5300
+Connection ~ 7150 5300
+Wire Wire Line
+	7150 5300 7150 5200
+Wire Wire Line
+	7050 5200 7150 5200
+Connection ~ 7150 5200
+Wire Wire Line
+	7150 5200 7150 5100
+Wire Wire Line
+	7050 5100 7150 5100
+Connection ~ 7150 5100
+Wire Wire Line
+	7150 5100 7150 5000
+Wire Wire Line
+	7050 5000 7150 5000
+Connection ~ 7150 5000
+Wire Wire Line
+	7150 5000 7150 4900
+Wire Wire Line
+	7050 4900 7150 4900
+Connection ~ 7150 4900
+Wire Wire Line
+	7150 4900 7150 4800
+Wire Wire Line
+	7050 4800 7150 4800
+Connection ~ 7150 4800
+Wire Wire Line
+	7150 4800 7150 4700
+Wire Wire Line
+	7050 4700 7150 4700
+Connection ~ 7150 4700
+Wire Wire Line
+	7150 4700 7150 4600
+$Comp
+L Device:D D313
+U 1 1 652F8A2A
+P 6900 3700
+F 0 "D313" H 6500 3700 50  0000 C CNN
+F 1 "D" H 6600 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 3700 50  0001 C CNN
+F 3 "~" H 6900 3700 50  0001 C CNN
+	1    6900 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D314
+U 1 1 652F8A34
+P 6900 3800
+F 0 "D314" H 6500 3800 50  0000 C CNN
+F 1 "D" H 6600 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 3800 50  0001 C CNN
+F 3 "~" H 6900 3800 50  0001 C CNN
+	1    6900 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D315
+U 1 1 652F8A3E
+P 6900 3900
+F 0 "D315" H 6500 3900 50  0000 C CNN
+F 1 "D" H 6600 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 3900 50  0001 C CNN
+F 3 "~" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D316
+U 1 1 652F8A48
+P 6900 4000
+F 0 "D316" H 6500 4000 50  0000 C CNN
+F 1 "D" H 6600 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4000 50  0001 C CNN
+F 3 "~" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D317
+U 1 1 652F8A52
+P 6900 4100
+F 0 "D317" H 6500 4100 50  0000 C CNN
+F 1 "D" H 6600 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4100 50  0001 C CNN
+F 3 "~" H 6900 4100 50  0001 C CNN
+	1    6900 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D318
+U 1 1 652F8A5C
+P 6900 4200
+F 0 "D318" H 6500 4200 50  0000 C CNN
+F 1 "D" H 6600 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4200 50  0001 C CNN
+F 3 "~" H 6900 4200 50  0001 C CNN
+	1    6900 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D319
+U 1 1 652F8A66
+P 6900 4300
+F 0 "D319" H 6500 4300 50  0000 C CNN
+F 1 "D" H 6600 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4300 50  0001 C CNN
+F 3 "~" H 6900 4300 50  0001 C CNN
+	1    6900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D320
+U 1 1 652F8A70
+P 6900 4400
+F 0 "D320" H 6500 4400 50  0000 C CNN
+F 1 "D" H 6600 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4400 50  0001 C CNN
+F 3 "~" H 6900 4400 50  0001 C CNN
+	1    6900 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D321
+U 1 1 652F8A7A
+P 6900 4500
+F 0 "D321" H 6500 4500 50  0000 C CNN
+F 1 "D" H 6600 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4500 50  0001 C CNN
+F 3 "~" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D322
+U 1 1 652F8A84
+P 6900 4600
+F 0 "D322" H 6500 4600 50  0000 C CNN
+F 1 "D" H 6600 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4600 50  0001 C CNN
+F 3 "~" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D323
+U 1 1 652F8A8E
+P 6900 4700
+F 0 "D323" H 6500 4700 50  0000 C CNN
+F 1 "D" H 6600 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4700 50  0001 C CNN
+F 3 "~" H 6900 4700 50  0001 C CNN
+	1    6900 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D324
+U 1 1 652F8A98
+P 6900 4800
+F 0 "D324" H 6500 4800 50  0000 C CNN
+F 1 "D" H 6600 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4800 50  0001 C CNN
+F 3 "~" H 6900 4800 50  0001 C CNN
+	1    6900 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D325
+U 1 1 652F8AA2
+P 6900 4900
+F 0 "D325" H 6500 4900 50  0000 C CNN
+F 1 "D" H 6600 4900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 4900 50  0001 C CNN
+F 3 "~" H 6900 4900 50  0001 C CNN
+	1    6900 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D326
+U 1 1 652F8AAC
+P 6900 5000
+F 0 "D326" H 6500 5000 50  0000 C CNN
+F 1 "D" H 6600 5000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5000 50  0001 C CNN
+F 3 "~" H 6900 5000 50  0001 C CNN
+	1    6900 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D327
+U 1 1 652F8AB6
+P 6900 5100
+F 0 "D327" H 6500 5100 50  0000 C CNN
+F 1 "D" H 6600 5100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5100 50  0001 C CNN
+F 3 "~" H 6900 5100 50  0001 C CNN
+	1    6900 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D328
+U 1 1 652F8AC0
+P 6900 5200
+F 0 "D328" H 6500 5200 50  0000 C CNN
+F 1 "D" H 6600 5200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5200 50  0001 C CNN
+F 3 "~" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D329
+U 1 1 652F8ACA
+P 6900 5300
+F 0 "D329" H 6500 5300 50  0000 C CNN
+F 1 "D" H 6600 5300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5300 50  0001 C CNN
+F 3 "~" H 6900 5300 50  0001 C CNN
+	1    6900 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D330
+U 1 1 652F8AD4
+P 6900 5400
+F 0 "D330" H 6500 5400 50  0000 C CNN
+F 1 "D" H 6600 5400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5400 50  0001 C CNN
+F 3 "~" H 6900 5400 50  0001 C CNN
+	1    6900 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D331
+U 1 1 652F8ADE
+P 6900 5500
+F 0 "D331" H 6500 5500 50  0000 C CNN
+F 1 "D" H 6600 5500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5500 50  0001 C CNN
+F 3 "~" H 6900 5500 50  0001 C CNN
+	1    6900 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D332
+U 1 1 652F8AE8
+P 6900 5600
+F 0 "D332" H 6500 5600 50  0000 C CNN
+F 1 "D" H 6600 5600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5600 50  0001 C CNN
+F 3 "~" H 6900 5600 50  0001 C CNN
+	1    6900 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D333
+U 1 1 652F8AF2
+P 6900 5700
+F 0 "D333" H 6500 5700 50  0000 C CNN
+F 1 "D" H 6600 5700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5700 50  0001 C CNN
+F 3 "~" H 6900 5700 50  0001 C CNN
+	1    6900 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D334
+U 1 1 652F8AFC
+P 6900 5800
+F 0 "D334" H 6500 5800 50  0000 C CNN
+F 1 "D" H 6600 5800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5800 50  0001 C CNN
+F 3 "~" H 6900 5800 50  0001 C CNN
+	1    6900 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D335
+U 1 1 652F8B06
+P 6900 5900
+F 0 "D335" H 6500 5900 50  0000 C CNN
+F 1 "D" H 6600 5900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 5900 50  0001 C CNN
+F 3 "~" H 6900 5900 50  0001 C CNN
+	1    6900 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D336
+U 1 1 652F8B10
+P 6900 6000
+F 0 "D336" H 6500 6000 50  0000 C CNN
+F 1 "D" H 6600 6000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 6900 6000 50  0001 C CNN
+F 3 "~" H 6900 6000 50  0001 C CNN
+	1    6900 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J15
+U 1 1 652F8B1A
+P 7750 4800
+F 0 "J15" H 7858 6081 50  0000 C CNN
+F 1 "GPIO" H 7858 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 7750 4800 50  0001 C CNN
+F 3 "~" H 7750 4800 50  0001 C CNN
+	1    7750 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3700 8000 3700
+Wire Wire Line
+	7950 3800 8000 3800
+Wire Wire Line
+	7950 3900 8000 3900
+Wire Wire Line
+	7950 4000 8000 4000
+Wire Wire Line
+	7950 4100 8000 4100
+Wire Wire Line
+	7950 4200 8000 4200
+$Comp
+L power:GND #PWR015
+U 1 1 652F8B3C
+P 8400 6100
+F 0 "#PWR015" H 8400 5850 50  0001 C CNN
+F 1 "GND" H 8405 5927 50  0000 C CNN
+F 2 "" H 8400 6100 50  0001 C CNN
+F 3 "" H 8400 6100 50  0001 C CNN
+	1    8400 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3700 8300 3700
+Wire Wire Line
+	8300 3800 8400 3800
+Connection ~ 8400 3800
+Wire Wire Line
+	8400 3800 8400 3700
+Wire Wire Line
+	8300 3900 8400 3900
+Connection ~ 8400 3900
+Wire Wire Line
+	8400 3900 8400 3800
+Wire Wire Line
+	8300 4000 8400 4000
+Connection ~ 8400 4000
+Wire Wire Line
+	8400 4000 8400 3900
+Wire Wire Line
+	8300 4100 8400 4100
+Connection ~ 8400 4100
+Wire Wire Line
+	8400 4100 8400 4000
+Wire Wire Line
+	8300 4200 8400 4200
+Wire Wire Line
+	8400 4200 8400 4100
+$Comp
+L Device:D D337
+U 1 1 652F8B8D
+P 8150 3700
+F 0 "D337" H 7750 3700 50  0000 C CNN
+F 1 "D" H 7850 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 3700 50  0001 C CNN
+F 3 "~" H 8150 3700 50  0001 C CNN
+	1    8150 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D338
+U 1 1 652F8B97
+P 8150 3800
+F 0 "D338" H 7750 3800 50  0000 C CNN
+F 1 "D" H 7850 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 3800 50  0001 C CNN
+F 3 "~" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D339
+U 1 1 652F8BA1
+P 8150 3900
+F 0 "D339" H 7750 3900 50  0000 C CNN
+F 1 "D" H 7850 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 3900 50  0001 C CNN
+F 3 "~" H 8150 3900 50  0001 C CNN
+	1    8150 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D340
+U 1 1 652F8BAB
+P 8150 4000
+F 0 "D340" H 7750 4000 50  0000 C CNN
+F 1 "D" H 7850 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4000 50  0001 C CNN
+F 3 "~" H 8150 4000 50  0001 C CNN
+	1    8150 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D341
+U 1 1 652F8BB5
+P 8150 4100
+F 0 "D341" H 7750 4100 50  0000 C CNN
+F 1 "D" H 7850 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4100 50  0001 C CNN
+F 3 "~" H 8150 4100 50  0001 C CNN
+	1    8150 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D342
+U 1 1 652F8BBF
+P 8150 4200
+F 0 "D342" H 7750 4200 50  0000 C CNN
+F 1 "D" H 7850 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4200 50  0001 C CNN
+F 3 "~" H 8150 4200 50  0001 C CNN
+	1    8150 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x24_Male J16
+U 1 1 652F8C7D
+P 8850 4800
+F 0 "J16" H 8958 6081 50  0000 C CNN
+F 1 "GPIO" H 8958 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 8850 4800 50  0001 C CNN
+F 3 "~" H 8850 4800 50  0001 C CNN
+	1    8850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 652F8C9F
+P 9200 6100
+F 0 "#PWR016" H 9200 5850 50  0001 C CNN
+F 1 "GND" H 9205 5927 50  0000 C CNN
+F 2 "" H 9200 6100 50  0001 C CNN
+F 3 "" H 9200 6100 50  0001 C CNN
+	1    9200 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 6100 9200 6000
+Connection ~ 9200 6000
+Wire Wire Line
+	9200 6000 9200 5900
+Connection ~ 9200 5900
+Wire Wire Line
+	9200 5900 9200 5800
+Connection ~ 9200 5800
+Wire Wire Line
+	9200 5800 9200 5700
+Connection ~ 9200 5700
+Wire Wire Line
+	9200 5700 9200 5600
+Connection ~ 9200 5600
+Wire Wire Line
+	9200 5600 9200 5500
+Connection ~ 9200 5500
+Wire Wire Line
+	9200 5500 9200 5400
+Connection ~ 9200 5400
+Wire Wire Line
+	9200 5400 9200 5300
+Connection ~ 9200 5300
+Wire Wire Line
+	9200 5300 9200 5200
+Connection ~ 9200 5200
+Wire Wire Line
+	9200 5200 9200 5100
+Connection ~ 9200 5100
+Wire Wire Line
+	9200 5100 9200 5000
+Connection ~ 9200 5000
+Wire Wire Line
+	9200 5000 9200 4900
+Wire Wire Line
+	9050 5000 9200 5000
+Wire Wire Line
+	9050 5100 9200 5100
+Wire Wire Line
+	9050 5200 9200 5200
+Wire Wire Line
+	9050 5300 9200 5300
+Wire Wire Line
+	9050 5400 9200 5400
+Wire Wire Line
+	9050 5500 9200 5500
+Wire Wire Line
+	9050 5600 9200 5600
+Wire Wire Line
+	9050 5700 9200 5700
+Wire Wire Line
+	9050 5800 9200 5800
+Wire Wire Line
+	9050 5900 9200 5900
+Wire Wire Line
+	9050 6000 9200 6000
+Wire Wire Line
+	8400 4300 8400 4200
+Connection ~ 8400 4200
+Wire Wire Line
+	7950 4300 8000 4300
+Wire Wire Line
+	7950 4400 8000 4400
+Wire Wire Line
+	7950 4500 8000 4500
+Wire Wire Line
+	7950 4600 8000 4600
+Wire Wire Line
+	7950 4700 8000 4700
+Wire Wire Line
+	7950 4800 8000 4800
+Wire Wire Line
+	7950 4900 8000 4900
+Wire Wire Line
+	7950 5000 8000 5000
+Wire Wire Line
+	7950 5100 8000 5100
+Wire Wire Line
+	7950 5200 8000 5200
+Wire Wire Line
+	7950 5300 8000 5300
+Wire Wire Line
+	7950 5400 8000 5400
+Wire Wire Line
+	7950 5500 8000 5500
+Wire Wire Line
+	7950 5600 8000 5600
+Wire Wire Line
+	7950 5700 8000 5700
+Wire Wire Line
+	7950 5800 8000 5800
+Wire Wire Line
+	7950 5900 8000 5900
+Wire Wire Line
+	7950 6000 8000 6000
+Wire Wire Line
+	8300 4300 8400 4300
+Wire Wire Line
+	8300 4400 8400 4400
+Wire Wire Line
+	8300 4500 8400 4500
+Wire Wire Line
+	8300 4600 8400 4600
+Wire Wire Line
+	8300 6000 8400 6000
+Wire Wire Line
+	8300 5900 8400 5900
+Wire Wire Line
+	8300 5800 8400 5800
+Wire Wire Line
+	8300 5700 8400 5700
+Wire Wire Line
+	8300 5600 8400 5600
+Wire Wire Line
+	8300 5500 8400 5500
+Wire Wire Line
+	8300 5400 8400 5400
+Wire Wire Line
+	8300 5300 8400 5300
+Wire Wire Line
+	8300 5200 8400 5200
+Wire Wire Line
+	8300 5100 8400 5100
+Wire Wire Line
+	8300 5000 8400 5000
+Wire Wire Line
+	8300 4900 8400 4900
+Wire Wire Line
+	8300 4800 8400 4800
+Wire Wire Line
+	8300 4700 8400 4700
+$Comp
+L Device:D D343
+U 1 1 66B87990
+P 8150 4300
+F 0 "D343" H 7750 4300 50  0000 C CNN
+F 1 "D" H 7850 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4300 50  0001 C CNN
+F 3 "~" H 8150 4300 50  0001 C CNN
+	1    8150 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D344
+U 1 1 66B8799A
+P 8150 4400
+F 0 "D344" H 7750 4400 50  0000 C CNN
+F 1 "D" H 7850 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4400 50  0001 C CNN
+F 3 "~" H 8150 4400 50  0001 C CNN
+	1    8150 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D345
+U 1 1 66B879A4
+P 8150 4500
+F 0 "D345" H 7750 4500 50  0000 C CNN
+F 1 "D" H 7850 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4500 50  0001 C CNN
+F 3 "~" H 8150 4500 50  0001 C CNN
+	1    8150 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D346
+U 1 1 66B879AE
+P 8150 4600
+F 0 "D346" H 7750 4600 50  0000 C CNN
+F 1 "D" H 7850 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4600 50  0001 C CNN
+F 3 "~" H 8150 4600 50  0001 C CNN
+	1    8150 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D347
+U 1 1 66B879B8
+P 8150 4700
+F 0 "D347" H 7750 4700 50  0000 C CNN
+F 1 "D" H 7850 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4700 50  0001 C CNN
+F 3 "~" H 8150 4700 50  0001 C CNN
+	1    8150 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D348
+U 1 1 66B879C2
+P 8150 4800
+F 0 "D348" H 7750 4800 50  0000 C CNN
+F 1 "D" H 7850 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4800 50  0001 C CNN
+F 3 "~" H 8150 4800 50  0001 C CNN
+	1    8150 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D349
+U 1 1 66B879CC
+P 8150 4900
+F 0 "D349" H 7750 4900 50  0000 C CNN
+F 1 "D" H 7850 4900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 4900 50  0001 C CNN
+F 3 "~" H 8150 4900 50  0001 C CNN
+	1    8150 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D350
+U 1 1 66B879D6
+P 8150 5000
+F 0 "D350" H 7750 5000 50  0000 C CNN
+F 1 "D" H 7850 5000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5000 50  0001 C CNN
+F 3 "~" H 8150 5000 50  0001 C CNN
+	1    8150 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D351
+U 1 1 66B879E0
+P 8150 5100
+F 0 "D351" H 7750 5100 50  0000 C CNN
+F 1 "D" H 7850 5100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5100 50  0001 C CNN
+F 3 "~" H 8150 5100 50  0001 C CNN
+	1    8150 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D352
+U 1 1 66B879EA
+P 8150 5200
+F 0 "D352" H 7750 5200 50  0000 C CNN
+F 1 "D" H 7850 5200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5200 50  0001 C CNN
+F 3 "~" H 8150 5200 50  0001 C CNN
+	1    8150 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D353
+U 1 1 66B879F4
+P 8150 5300
+F 0 "D353" H 7750 5300 50  0000 C CNN
+F 1 "D" H 7850 5300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5300 50  0001 C CNN
+F 3 "~" H 8150 5300 50  0001 C CNN
+	1    8150 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D354
+U 1 1 66B879FE
+P 8150 5400
+F 0 "D354" H 7750 5400 50  0000 C CNN
+F 1 "D" H 7850 5400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5400 50  0001 C CNN
+F 3 "~" H 8150 5400 50  0001 C CNN
+	1    8150 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D355
+U 1 1 66B87A08
+P 8150 5500
+F 0 "D355" H 7750 5500 50  0000 C CNN
+F 1 "D" H 7850 5500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5500 50  0001 C CNN
+F 3 "~" H 8150 5500 50  0001 C CNN
+	1    8150 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D356
+U 1 1 66B87A12
+P 8150 5600
+F 0 "D356" H 7750 5600 50  0000 C CNN
+F 1 "D" H 7850 5600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5600 50  0001 C CNN
+F 3 "~" H 8150 5600 50  0001 C CNN
+	1    8150 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D357
+U 1 1 66B87A1C
+P 8150 5700
+F 0 "D357" H 7750 5700 50  0000 C CNN
+F 1 "D" H 7850 5700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5700 50  0001 C CNN
+F 3 "~" H 8150 5700 50  0001 C CNN
+	1    8150 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D358
+U 1 1 66B87A26
+P 8150 5800
+F 0 "D358" H 7750 5800 50  0000 C CNN
+F 1 "D" H 7850 5800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5800 50  0001 C CNN
+F 3 "~" H 8150 5800 50  0001 C CNN
+	1    8150 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D359
+U 1 1 66B87A30
+P 8150 5900
+F 0 "D359" H 7750 5900 50  0000 C CNN
+F 1 "D" H 7850 5900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 5900 50  0001 C CNN
+F 3 "~" H 8150 5900 50  0001 C CNN
+	1    8150 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D360
+U 1 1 66B87A3A
+P 8150 6000
+F 0 "D360" H 7750 6000 50  0000 C CNN
+F 1 "D" H 7850 6000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 8150 6000 50  0001 C CNN
+F 3 "~" H 8150 6000 50  0001 C CNN
+	1    8150 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 4300 8400 4400
+Connection ~ 8400 4300
+Wire Wire Line
+	8400 4400 8400 4500
+Connection ~ 8400 4400
+Connection ~ 8400 4500
+Wire Wire Line
+	8400 4500 8400 4600
+Connection ~ 8400 4600
+Wire Wire Line
+	8400 4600 8400 4700
+Connection ~ 8400 4700
+Wire Wire Line
+	8400 4700 8400 4800
+Connection ~ 8400 4800
+Wire Wire Line
+	8400 4800 8400 4900
+Connection ~ 8400 4900
+Wire Wire Line
+	8400 4900 8400 5000
+Connection ~ 8400 5000
+Wire Wire Line
+	8400 5000 8400 5100
+Connection ~ 8400 5100
+Wire Wire Line
+	8400 5100 8400 5200
+Connection ~ 8400 5200
+Wire Wire Line
+	8400 5200 8400 5300
+Connection ~ 8400 5300
+Wire Wire Line
+	8400 5300 8400 5400
+Connection ~ 8400 5400
+Wire Wire Line
+	8400 5400 8400 5500
+Connection ~ 8400 5500
+Wire Wire Line
+	8400 5500 8400 5600
+Connection ~ 8400 5600
+Wire Wire Line
+	8400 5600 8400 5700
+Connection ~ 8400 5700
+Wire Wire Line
+	8400 5700 8400 5800
+Connection ~ 8400 5800
+Wire Wire Line
+	8400 5800 8400 5900
+Connection ~ 8400 5900
+Wire Wire Line
+	8400 5900 8400 6000
+Connection ~ 8400 6000
+Wire Wire Line
+	8400 6000 8400 6100
+Wire Wire Line
+	9050 3700 9100 3700
+Wire Wire Line
+	9050 3800 9100 3800
+Wire Wire Line
+	9050 3900 9100 3900
+Wire Wire Line
+	9050 4000 9100 4000
+Wire Wire Line
+	9050 4100 9100 4100
+Wire Wire Line
+	9050 4200 9100 4200
+Wire Wire Line
+	9500 3700 9400 3700
+Wire Wire Line
+	9400 3800 9500 3800
+Connection ~ 9500 3800
+Wire Wire Line
+	9500 3800 9500 3700
+Wire Wire Line
+	9400 3900 9500 3900
+Connection ~ 9500 3900
+Wire Wire Line
+	9500 3900 9500 3800
+Wire Wire Line
+	9400 4000 9500 4000
+Connection ~ 9500 4000
+Wire Wire Line
+	9500 4000 9500 3900
+Wire Wire Line
+	9400 4100 9500 4100
+Connection ~ 9500 4100
+Wire Wire Line
+	9500 4100 9500 4000
+Wire Wire Line
+	9400 4200 9500 4200
+Wire Wire Line
+	9500 4200 9500 4100
+$Comp
+L Device:D D361
+U 1 1 67096BCF
+P 9250 3700
+F 0 "D361" H 8850 3700 50  0000 C CNN
+F 1 "D" H 8950 3700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 3700 50  0001 C CNN
+F 3 "~" H 9250 3700 50  0001 C CNN
+	1    9250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D362
+U 1 1 67096BD9
+P 9250 3800
+F 0 "D362" H 8850 3800 50  0000 C CNN
+F 1 "D" H 8950 3800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 3800 50  0001 C CNN
+F 3 "~" H 9250 3800 50  0001 C CNN
+	1    9250 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D363
+U 1 1 67096BE3
+P 9250 3900
+F 0 "D363" H 8850 3900 50  0000 C CNN
+F 1 "D" H 8950 3900 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 3900 50  0001 C CNN
+F 3 "~" H 9250 3900 50  0001 C CNN
+	1    9250 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D364
+U 1 1 67096BED
+P 9250 4000
+F 0 "D364" H 8850 4000 50  0000 C CNN
+F 1 "D" H 8950 4000 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4000 50  0001 C CNN
+F 3 "~" H 9250 4000 50  0001 C CNN
+	1    9250 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D365
+U 1 1 67096BF7
+P 9250 4100
+F 0 "D365" H 8850 4100 50  0000 C CNN
+F 1 "D" H 8950 4100 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4100 50  0001 C CNN
+F 3 "~" H 9250 4100 50  0001 C CNN
+	1    9250 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D366
+U 1 1 67096C01
+P 9250 4200
+F 0 "D366" H 8850 4200 50  0000 C CNN
+F 1 "D" H 8950 4200 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4200 50  0001 C CNN
+F 3 "~" H 9250 4200 50  0001 C CNN
+	1    9250 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 4300 9500 4200
+Connection ~ 9500 4200
+Wire Wire Line
+	9050 4300 9100 4300
+Wire Wire Line
+	9050 4400 9100 4400
+Wire Wire Line
+	9050 4500 9100 4500
+Wire Wire Line
+	9050 4600 9100 4600
+Wire Wire Line
+	9050 4700 9100 4700
+Wire Wire Line
+	9050 4800 9100 4800
+Wire Wire Line
+	9400 4300 9500 4300
+Wire Wire Line
+	9400 4400 9500 4400
+Wire Wire Line
+	9400 4500 9500 4500
+Wire Wire Line
+	9400 4600 9500 4600
+Wire Wire Line
+	9400 4800 9500 4800
+Wire Wire Line
+	9400 4700 9500 4700
+$Comp
+L Device:D D367
+U 1 1 67096C19
+P 9250 4300
+F 0 "D367" H 8850 4300 50  0000 C CNN
+F 1 "D" H 8950 4300 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4300 50  0001 C CNN
+F 3 "~" H 9250 4300 50  0001 C CNN
+	1    9250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D368
+U 1 1 67096C23
+P 9250 4400
+F 0 "D368" H 8850 4400 50  0000 C CNN
+F 1 "D" H 8950 4400 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4400 50  0001 C CNN
+F 3 "~" H 9250 4400 50  0001 C CNN
+	1    9250 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D369
+U 1 1 67096C2D
+P 9250 4500
+F 0 "D369" H 8850 4500 50  0000 C CNN
+F 1 "D" H 8950 4500 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4500 50  0001 C CNN
+F 3 "~" H 9250 4500 50  0001 C CNN
+	1    9250 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D370
+U 1 1 67096C37
+P 9250 4600
+F 0 "D370" H 8850 4600 50  0000 C CNN
+F 1 "D" H 8950 4600 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4600 50  0001 C CNN
+F 3 "~" H 9250 4600 50  0001 C CNN
+	1    9250 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D371
+U 1 1 67096C41
+P 9250 4700
+F 0 "D371" H 8850 4700 50  0000 C CNN
+F 1 "D" H 8950 4700 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4700 50  0001 C CNN
+F 3 "~" H 9250 4700 50  0001 C CNN
+	1    9250 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D372
+U 1 1 67096C4B
+P 9250 4800
+F 0 "D372" H 8850 4800 50  0000 C CNN
+F 1 "D" H 8950 4800 50  0000 C CNN
+F 2 "HammerheadAudio:LED_Centered_BackRef" H 9250 4800 50  0001 C CNN
+F 3 "~" H 9250 4800 50  0001 C CNN
+	1    9250 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 4300 9500 4400
+Connection ~ 9500 4300
+Wire Wire Line
+	9500 4400 9500 4500
+Connection ~ 9500 4400
+Connection ~ 9500 4500
+Wire Wire Line
+	9500 4500 9500 4600
+Connection ~ 9500 4600
+Wire Wire Line
+	9500 4600 9500 4700
+Connection ~ 9500 4700
+Wire Wire Line
+	9500 4700 9500 4800
+Connection ~ 9500 4800
+Wire Wire Line
+	9500 4800 9500 4900
+Wire Wire Line
+	9050 4900 9200 4900
+Wire Wire Line
+	9200 4900 9500 4900
+Connection ~ 9200 4900
+$EndSCHEMATC
